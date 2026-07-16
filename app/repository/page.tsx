@@ -15,7 +15,7 @@ const cardStyle: React.CSSProperties = {
   display: "flex",
   flexDirection: "column",
   fontFamily: "system-ui, -apple-system, sans-serif",
-  background: "#ffffff",
+  background: "rgba(255, 255, 255, 0.95)",
   boxSizing: "border-box",
 };
 
@@ -98,7 +98,18 @@ const countryListStyle: React.CSSProperties = {
 
 export default function RepositoryPage() {
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", padding: "2rem", maxWidth: "960px", margin: "0 auto" }}>
+    <main
+      style={{
+        fontFamily: "system-ui, -apple-system, sans-serif",
+        padding: "2rem",
+        maxWidth: "960px",
+        margin: "0 auto",
+        minHeight: "100vh",
+        backgroundImage: "url('/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <header style={{ marginBottom: "2rem" }}>
         <h1 style={{ margin: "0 0 0.5rem 0", fontSize: "28px", fontWeight: 700, color: "#111827" }}>
           Offer Repository
@@ -110,7 +121,7 @@ export default function RepositoryPage() {
 
       <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
         {offers.map((offer) => {
-          const brandedLink = `cantina.link/${offer.slug}`;
+          const brandedLink = `cantina virtual / ${offer.slug}`;
           return (
             <div key={offer.slug} style={cardStyle}>
               {/* Image area */}
