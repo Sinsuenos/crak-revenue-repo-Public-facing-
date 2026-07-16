@@ -6,50 +6,156 @@ export const metadata = {
   description: "Public list of available offers with shortened links.",
 };
 
+const cardStyle: React.CSSProperties = {
+  width: "300px",
+  height: "250px",
+  overflow: "hidden",
+  borderRadius: "8px",
+  border: "1px solid #e0e0e0",
+  display: "flex",
+  flexDirection: "column",
+  fontFamily: "system-ui, -apple-system, sans-serif",
+  background: "#ffffff",
+  boxSizing: "border-box",
+};
+
+const imagePlaceholderStyle: React.CSSProperties = {
+  width: "100%",
+  height: "90px",
+  background: "#f0f0f0",
+  flexShrink: 0,
+  overflow: "hidden",
+};
+
+const imageStyle: React.CSSProperties = {
+  width: "100%",
+  height: "100%",
+  objectFit: "cover",
+  display: "block",
+};
+
+const bodyStyle: React.CSSProperties = {
+  padding: "10px 12px",
+  flex: 1,
+  display: "flex",
+  flexDirection: "column",
+  minHeight: 0,
+  overflow: "hidden",
+};
+
+const titleStyle: React.CSSProperties = {
+  margin: "0 0 4px 0",
+  fontSize: "15px",
+  fontWeight: 600,
+  color: "#111827",
+  lineHeight: "1.2",
+};
+
+const descriptionStyle: React.CSSProperties = {
+  margin: "0 0 6px 0",
+  fontSize: "13px",
+  color: "#6b7280",
+  lineHeight: "1.4",
+  display: "-webkit-box",
+  WebkitLineClamp: 2,
+  WebkitBoxOrient: "vertical",
+  overflow: "hidden",
+  flexShrink: 0,
+};
+
+const linkStyle: React.CSSProperties = {
+  fontSize: "12px",
+  color: "#2563eb",
+  textDecoration: "none",
+  fontWeight: 500,
+  marginTop: "auto",
+  display: "inline-block",
+};
+
+const detailsStyle: React.CSSProperties = {
+  margin: "0",
+  fontSize: "11px",
+  color: "#6b7280",
+  overflow: "hidden",
+};
+
+const summaryStyle: React.CSSProperties = {
+  cursor: "pointer",
+  padding: "2px 0",
+  outline: "none",
+  fontSize: "11px",
+  color: "#9ca3af",
+};
+
+const countryListStyle: React.CSSProperties = {
+  margin: "0",
+  paddingLeft: "14px",
+  maxHeight: "60px",
+  overflowY: "auto",
+  fontSize: "11px",
+  lineHeight: "1.5",
+};
+
 export default function RepositoryPage() {
   return (
-    <main className="mx-auto max-w-2xl px-6 py-16">
-      <header className="mb-10">
-        <h1 className="text-3xl font-semibold tracking-tight">Offer Repository</h1>
-        <p className="mt-2 text-neutral-600">
-          Browse the available offers below. Each link opens the offer through
-          a shortened redirect path.
+    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif", padding: "2rem", maxWidth: "960px", margin: "0 auto" }}>
+      <header style={{ marginBottom: "2rem" }}>
+        <h1 style={{ margin: "0 0 0.5rem 0", fontSize: "28px", fontWeight: 700, color: "#111827" }}>
+          Offer Repository
+        </h1>
+        <p style={{ margin: 0, fontSize: "15px", color: "#6b7280" }}>
+          Browse available offers. Each link redirects through a short path.
         </p>
       </header>
 
-      <ul className="divide-y divide-neutral-200 rounded-lg border border-neutral-200 bg-white">
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
         {offers.map((offer) => {
-          const shortLink = `/go/${offer.slug}`;
+          const brandedLink = `cantina.link/${offer.slug}`;
           return (
-            <li
-              key={offer.slug}
-              className="flex flex-col gap-1 px-5 py-4 sm:flex-row sm:items-center sm:justify-between"
-            >
-              <div className="min-w-0">
-                <p className="truncate text-base font-medium text-neutral-900">
-                  {offer.title}
-                </p>
-                <p className="truncate font-mono text-sm text-neutral-500">
-                  {shortLink}
-                </p>
+            <div key={offer.slug} style={cardStyle}>
+              {/* Image area */}
+              {offer.imageUrl ? (
+                <div style={imagePlaceholderStyle}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={offer.imageUrl} alt={offer.title} style={imageStyle} />
+                </div>
+              ) : (
+                <div style={imagePlaceholderStyle} />
+              )}
+
+              {/* Card body */}
+              <div style={bodyStyle}>
+                <h2 style={titleStyle}>{offer.title}</h2>
+                <p style={descriptionStyle}>{offer.description}</p>
+
+                {/* Collapsible countries */}
+                <details style={detailsStyle}>
+                  <summary style={summaryStyle}>
+                    View Available Countries ({offer.countries.length})
+                  </summary>
+                  <ul style={countryListStyle}>
+                    {offer.countries.map((c) => (
+                      <li key={c}>{c}</li>
+                    ))}
+                  </ul>
+                </details>
+
+                {/* Branded link */}
+                <Link href={`/go/${offer.slug}`} style={linkStyle}>
+                  {brandedLink}
+                </Link>
               </div>
-              <Link
-                href={shortLink}
-                className="inline-flex shrink-0 items-center rounded-md border border-neutral-300 bg-white px-3 py-1.5 text-sm font-medium text-neutral-800 transition hover:bg-neutral-100"
-              >
-                Open
-              </Link>
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
 
-      <footer className="mt-10">
+      <footer style={{ marginTop: "2rem" }}>
         <Link
           href="/"
-          className="text-sm text-neutral-500 underline-offset-4 hover:underline"
+          style={{ fontSize: "14px", color: "#9ca3af", textDecoration: "none" }}
         >
-          ← Back to home
+          &larr; Back to home
         </Link>
       </footer>
     </main>

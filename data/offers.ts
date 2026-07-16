@@ -1,38 +1,29 @@
-/**
- * Offers data source.
- *
- * This is the single source of truth for the public offers listing.
- * Swap these placeholder entries for real offers later — no other file
- * needs to change. Each offer exposes only what the public page needs:
- *
- *   - slug         : short identifier used in the /go/<slug> redirect route
- *   - title        : human-readable offer title shown on /repository
- *   - affiliateUrl : the real affiliate destination (never shown to visitors)
- *
- * NOTE: This page is strictly public. Never add profit, commission, EPC,
- * conversion, or any other internal metric to this structure.
- */
-
 export type Offer = {
   slug: string;
   title: string;
+  category: string;
+  description: string;
   affiliateUrl: string;
+  countries: string[];
+  imageUrl?: string;
 };
 
 export const offers: Offer[] = [
   {
-    slug: "test-offer-1",
-    title: "Test Offer 1",
-    affiliateUrl: "https://example.com/offer-1",
-  },
-  {
-    slug: "test-offer-2",
-    title: "Test Offer 2",
-    affiliateUrl: "https://example.com/offer-2",
-  },
-  {
-    slug: "test-offer-3",
-    title: "Test Offer 3",
-    affiliateUrl: "https://example.com/offer-3",
-  },
+    slug: 'ohchat',
+    title: 'OhChat',
+    category: 'AI Companions',
+    description: 'Real creators. Real connection.',
+    affiliateUrl: 'https://t.vlmai-1.com/413627/10464/0?aff_sub=NCTRENTRY&aff_sub2=AI&aff_sub3=OHCHAT&source=REPO&aff_sub5=SF_006OG000004lmDN',
+    countries: [
+      'Australia', 'Austria', 'Belgium', 'Bulgaria', 'Canada', 'Croatia',
+      'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany',
+      'Greece', 'Hungary', 'Ireland', 'Israel', 'Italy', 'Japan', 'Latvia',
+      'Lithuania', 'Luxembourg', 'Malta', 'Monaco', 'Netherlands', 'New Zealand',
+      'Norway', 'Poland', 'Portugal', 'Romania', 'Singapore', 'Slovakia', 'Spain',
+      'Sweden', 'Switzerland', 'United Arab Emirates', 'Turkey', 'United Kingdom',
+      'United States'
+    ],
+    imageUrl: ''
+  }
 ];
