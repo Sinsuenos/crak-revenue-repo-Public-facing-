@@ -55,65 +55,169 @@ export default function CategoryPage({ params }: { params: { category: string } 
       {/* Cards grid */}
       <div style={{ display: "flex", flexWrap: "wrap", gap: "16px" }}>
         {filtered.map((offer) => {
-          const brandedLink = `cantina virtual / ${offer.slug}`;
+          const shortCat = offer.category.split(' ')[0];
+
+          /* Banner card: image top + info bottom, full-card clickable */
+          if (offer.imageUrl) {
+            return (
+              <Link
+                key={offer.slug}
+                href={`/go/${offer.slug}`}
+                style={{
+                  width: "300px",
+                  height: "250px",
+                  borderRadius: "10px",
+                  overflow: "hidden",
+                  display: "flex",
+                  flexDirection: "column",
+                  textDecoration: "none",
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.12)",
+                  transition: "transform 0.15s, box-shadow 0.15s",
+                  background: "#fff",
+                  flexShrink: 0,
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "translateY(-3px)";
+                  e.currentTarget.style.boxShadow = `0 6px 20px ${accent}40`;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.12)";
+                }}
+              >
+                <div style={{
+                  width: "100%",
+                  height: "158px",
+                  flexShrink: 0,
+                  overflow: "hidden",
+                  position: "relative",
+                }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={offer.imageUrl}
+                    alt={offer.title}
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                  />
+                  <div style={{
+                    position: "absolute",
+                    bottom: 0, left: 0, right: 0,
+                    height: "40px",
+                    background: `linear-gradient(transparent, ${accent}30)`,
+                    pointerEvents: "none",
+                  }} />
+                </div>
+                <div style={{ height: "3px", background: accent, flexShrink: 0 }} />
+                <div style={{
+                  flex: 1,
+                  padding: "8px 10px",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  minHeight: 0,
+                }}>
+                  <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "6px",
+                  }}>
+                    <h2 style={{
+                      margin: 0, fontSize: "13px", fontWeight: 700,
+                      color: "#111827", lineHeight: "1.2",
+                      overflow: "hidden", textOverflow: "ellipsis",
+                      whiteSpace: "nowrap", flex: 1,
+                    }}>
+                      {offer.title}
+                    </h2>
+                    <span style={{
+                      fontSize: "9px", fontWeight: 700, color: "#fff",
+                      background: accent,
+                      padding: "2px 7px", borderRadius: "8px",
+                      whiteSpace: "nowrap", flexShrink: 0,
+                      letterSpacing: "0.3px", textTransform: "uppercase",
+                    }}>
+                      {shortCat}
+                    </span>
+                  </div>
+                  <p style={{
+                    margin: "3px 0 0 0", fontSize: "11px",
+                    color: "#6b7280", lineHeight: "1.3", fontStyle: "italic",
+                  }}>
+                    {offer.caption}
+                  </p>
+                </div>
+              </Link>
+            );
+          }
+
+          /* Fallback text card — colorful gradient bg */
           return (
-            <div
+            <Link
               key={offer.slug}
+              href={`/go/${offer.slug}`}
               style={{
                 width: "300px",
                 height: "250px",
+                borderRadius: "10px",
                 overflow: "hidden",
-                borderRadius: "8px",
-                border: "1px solid #e0e0e0",
-                borderTop: `4px solid ${accent}`,
                 display: "flex",
                 flexDirection: "column",
-                fontFamily: "system-ui, -apple-system, sans-serif",
-                background: "rgba(255, 255, 255, 0.95)",
-                boxSizing: "border-box",
+                textDecoration: "none",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.12)",
+                transition: "transform 0.15s, box-shadow 0.15s",
+                flexShrink: 0,
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-3px)";
+                e.currentTarget.style.boxShadow = `0 6px 20px ${accent}40`;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow = "0 2px 8px rgba(0,0,0,0.12)";
               }}
             >
-              {/* Image area */}
-              {offer.imageUrl ? (
-                <div style={{ width: "100%", height: "90px", background: "#f0f0f0", flexShrink: 0, overflow: "hidden" }}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={offer.imageUrl} alt={offer.title} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
-                </div>
-              ) : (
-                <div style={{ width: "100%", height: "90px", background: "#f0f0f0", flexShrink: 0 }} />
-              )}
-
-              {/* Card body */}
-              <div style={{ padding: "10px 12px", flex: 1, display: "flex", flexDirection: "column", minHeight: 0, overflow: "hidden" }}>
-                <h2 style={{ margin: "0 0 4px 0", fontSize: "15px", fontWeight: 600, color: "#111827", lineHeight: "1.2" }}>
+              <div style={{
+                flex: 1,
+                background: `linear-gradient(135deg, ${accent}18, ${accent}08)`,
+                display: "flex", flexDirection: "column",
+                alignItems: "center", justifyContent: "center",
+                padding: "20px 16px",
+                borderBottom: `3px solid ${accent}`,
+              }}>
+                <span style={{
+                  fontSize: "10px", fontWeight: 700, color: "#fff",
+                  background: accent,
+                  padding: "3px 10px", borderRadius: "8px",
+                  marginBottom: "12px",
+                  letterSpacing: "0.5px", textTransform: "uppercase",
+                }}>
+                  {shortCat}
+                </span>
+                <h2 style={{
+                  margin: 0, fontSize: "16px", fontWeight: 700,
+                  color: "#111827", lineHeight: "1.2", textAlign: "center",
+                }}>
                   {offer.title}
                 </h2>
                 <p style={{
-                  margin: "0 0 6px 0", fontSize: "13px", color: "#6b7280", lineHeight: "1.4",
-                  display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", flexShrink: 0,
+                  margin: "6px 0 0 0", fontSize: "12px",
+                  color: "#6b7280", lineHeight: "1.4", fontStyle: "italic",
+                  textAlign: "center",
+                }}>
+                  {offer.caption}
+                </p>
+              </div>
+              <div style={{ padding: "10px 14px", background: "#fff" }}>
+                <p style={{
+                  margin: 0, fontSize: "11px",
+                  color: "#6b7280", lineHeight: "1.4",
+                  display: "-webkit-box", WebkitLineClamp: 2,
+                  WebkitBoxOrient: "vertical", overflow: "hidden",
                 }}>
                   {offer.description}
                 </p>
-
-                {offer.countries.length > 0 && (
-                  <details style={{ margin: 0, fontSize: "11px", color: "#6b7280", overflow: "hidden" }}>
-                    <summary style={{ cursor: "pointer", padding: "2px 0", outline: "none", fontSize: "11px", color: "#9ca3af" }}>
-                      View Available Countries ({offer.countries.length})
-                    </summary>
-                    <ul style={{ margin: 0, paddingLeft: "14px", maxHeight: "60px", overflowY: "auto", fontSize: "11px", lineHeight: "1.5" }}>
-                      {offer.countries.map((c) => <li key={c}>{c}</li>)}
-                    </ul>
-                  </details>
-                )}
-
-                <Link
-                  href={`/go/${offer.slug}`}
-                  style={{ fontSize: "12px", color: "#2563eb", textDecoration: "none", fontWeight: 500, marginTop: "auto", display: "inline-block" }}
-                >
-                  {brandedLink}
-                </Link>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
