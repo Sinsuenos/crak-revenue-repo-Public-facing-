@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import AgeGate from "./components/AgeGate";
+import { I18nProvider } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Cantina Virtual — Offers",
+  title: "Cantina Virtuale",
   description: "Public directory of available offers.",
   robots: { index: true, follow: true },
 };
@@ -24,8 +24,9 @@ export default function RootLayout({
         />
       </head>
       <body style={{ margin: 0, fontFamily: "'Inter', system-ui, -apple-system, sans-serif", background: '#0c0c14', color: '#e5e5e5' }}>
-        <AgeGate />
-        {children}
+        <I18nProvider>
+          {children}
+        </I18nProvider>
       </body>
     </html>
   );
