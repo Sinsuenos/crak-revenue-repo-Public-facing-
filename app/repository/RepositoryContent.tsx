@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { offers } from '@/data/offers';
 import { categories, getCategoryColor } from '@/data/categories';
-import { useI18n, getCatLabel, GOLD } from '@/lib/i18n';
+import { useI18n, getCatLabel, GOLD, type Locale } from '@/lib/i18n';
 import LegalFooter from '../components/LegalFooter';
 import LanguageToggle from '../components/LanguageToggle';
 
@@ -46,11 +46,64 @@ function MyErolink() {
   );
 }
 
+function CategoryBanner({ categoryLabel, locale }: { categoryLabel: string; locale: Locale }) {
+  const c = getCategoryColor(categoryLabel);
+  const cat = categories.find((x) => x.label === categoryLabel);
+  const label = cat ? getCatLabel(cat.slug, locale) : categoryLabel;
+  const count = offers.filter((o) => o.category === categoryLabel).length;
+  return (
+    <div style={{
+      width: '100%',
+      background: '#141420',
+      borderRadius: '8px',
+      padding: '10px 18px',
+      marginBottom: '16px',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '12px',
+      borderLeft: `4px solid ${c}`,
+      boxShadow: `0 2px 12px ${c}15`,
+    }}>
+      <span style={{
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+        width: '28px', height: '28px', borderRadius: '6px', flexShrink: 0,
+        background: `${c}20`, border: `1px solid ${c}40`,
+      }}>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M8 1L14.928 5V11L8 15L1.072 11V5L8 1Z" stroke={c} strokeWidth="1.5" strokeLinejoin="round" fill="none" />
+          <circle cx="8" cy="8" r="2.5" fill={c} />
+        </svg>
+      </span>
+      <span style={{
+        fontSize: '16px', fontWeight: 800, color: c,
+        letterSpacing: '1.5px', textTransform: 'uppercase' as const,
+        flex: 1,
+      }}>{label}</span>
+      <span style={{
+        fontSize: '12px', fontWeight: 700, color: `${c}99`,
+        background: `${c}15`, borderRadius: '10px',
+        padding: '2px 10px', letterSpacing: '0.5px',
+      }}>{count}</span>
+    </div>
+  );
+}
+
 export default function RepositoryContent() {
   const { locale, t } = useI18n();
-  const mid = Math.ceil(offers.length / 2);
-  const firstHalf = offers.slice(0, mid);
-  const secondHalf = offers.slice(mid);
+
+  // Group offers by category, preserving category order from categories.ts
+  const grouped: { label: string; offers: typeof offers }[] = [];
+  for (const cat of categories) {
+    const catOffers = offers.filter((o) => o.category === cat.label);
+    if (catOffers.length > 0) {
+      grouped.push({ label: cat.label, offers: catOffers });
+    }
+  }
+
+  // Split grouped into two halves for MYEROLINK placement
+  const midGroup = Math.ceil(grouped.length / 2);
+  const firstGroups = grouped.slice(0, midGroup);
+  const secondGroups = grouped.slice(midGroup);
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -76,13 +129,23 @@ export default function RepositoryContent() {
             );
           })}
         </nav>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-          {firstHalf.map((o) => <OfferCard key={o.slug} offer={o} />)}
-        </div>
+        {firstGroups.map((group) => (
+          <div key={group.label} style={{ marginBottom: '32px' }}>
+            <CategoryBanner categoryLabel={group.label} locale={locale} />
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
+              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} />)}
+            </div>
+          </div>
+        ))}
         <MyErolink />
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-          {secondHalf.map((o) => <OfferCard key={o.slug} offer={o} />)}
-        </div>
+        {secondGroups.map((group) => (
+          <div key={group.label} style={{ marginBottom: '32px' }}>
+            <CategoryBanner categoryLabel={group.label} locale={locale} />
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
+              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} />)}
+            </div>
+          </div>
+        ))}
       </main>
       <LegalFooter />
     </div>

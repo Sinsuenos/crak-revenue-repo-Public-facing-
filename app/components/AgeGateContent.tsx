@@ -12,30 +12,39 @@ export default function AgeGateContent() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(145deg, #0f0f1a 0%, #1a1028 40%, #0f0f1a 100%)',
+      backgroundImage: "url('/hero-bg.png')",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      backgroundColor: '#0f0f1a',
       fontFamily: "'Inter', system-ui, -apple-system, sans-serif",
       display: 'flex',
       flexDirection: 'column',
       color: '#e5e5e5',
+      position: 'relative',
     }}>
-      <LanguageToggle />
+      <div style={{ position: 'relative', zIndex: 2 }}><LanguageToggle /></div>
 
+      <div style={{
+        position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none',
+        background: 'linear-gradient(145deg, rgba(15,15,26,0.92) 0%, rgba(26,16,40,0.88) 40%, rgba(15,15,26,0.94) 100%)',
+      }} />
       <div style={{
         position: 'fixed', width: '400px', height: '400px', borderRadius: '50%',
         background: 'radial-gradient(circle, rgba(218,177,42,0.08) 0%, transparent 70%)',
-        top: '-100px', right: '-100px', pointerEvents: 'none', zIndex: 0,
+        top: '-100px', right: '-100px', pointerEvents: 'none', zIndex: 1,
       }} />
       <div style={{
         position: 'fixed', width: '350px', height: '350px', borderRadius: '50%',
         background: 'radial-gradient(circle, rgba(218,177,42,0.06) 0%, transparent 70%)',
-        bottom: '-80px', left: '-80px', pointerEvents: 'none', zIndex: 0,
+        bottom: '-80px', left: '-80px', pointerEvents: 'none', zIndex: 1,
       }} />
 
       <div style={{
         flex: 1,
         display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
         padding: '80px 24px 40px',
-        position: 'relative', zIndex: 1,
+        position: 'relative', zIndex: 2,
       }}>
         <div style={{
           width: '88px', height: '88px', borderRadius: '50%',
@@ -60,7 +69,7 @@ export default function AgeGateContent() {
           margin: '0 0 48px', fontSize: '14px', color: 'rgba(255,255,255,0.4)', textAlign: 'center',
         }}>
           {t('age.contact_prefix')}{' '}
-          <a href="mailto:contact@myerolink.com" style={{ color: GOLD, textDecoration: 'none' }}>contact@myerolink.com</a>
+          <a href="mailto:sinaloainspireddreams@gmail.com" style={{ color: GOLD, textDecoration: 'none' }}>sinaloainspireddreams@gmail.com</a>
         </p>
 
         <button
@@ -102,7 +111,7 @@ export default function AgeGateContent() {
         >{t('age.exit')}</button>
       </div>
 
-      <LegalFooter />
+      <div style={{ position: 'relative', zIndex: 2 }}><LegalFooter /></div>
     </div>
   );
 }

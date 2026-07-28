@@ -251,7 +251,7 @@ export const offers: Offer[] = [
   // ── Transgender ────────────────────────────────────────────────
   {
     slug: 'trans-smartlink',
-    title: 'Trans Smartlink',
+    title: 'Trans Regional Website',
     category: 'Transgender',
     description: 'Trans dating multi-offer smartlink',
     affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
@@ -308,7 +308,7 @@ export const offers: Offer[] = [
   // ── Gay ────────────────────────────────────────────────────────
   {
     slug: 'gay-dating-smartlink',
-    title: 'X Gay Dating Smartlink',
+    title: 'Gay Dating Regional Website',
     category: 'Gay',
     description: 'Gay dating multi offer smartlink',
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
@@ -328,7 +328,7 @@ export const offers: Offer[] = [
   },
   {
     slug: 'filf-gay',
-    title: 'FILF Gay Smartlink',
+    title: 'FILF Gay Regional Website',
     category: 'Gay',
     description: 'FILF gay smartlink',
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
