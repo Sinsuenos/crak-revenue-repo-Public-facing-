@@ -33,12 +33,6 @@ Haremos nuestro mejor esfuerzo por responder dentro de las 72 horas posteriores 
 export default function DmcaPage() {
   const { locale, t } = useI18n();
   const body = text[locale] || text.en;
-  const paragraphs = body.split('\n\n');
-  const lines = paragraphs[0].split('\n');
-  const intro = lines[0];
-  const subIntro = lines.slice(1).join('\n');
-  const numberedBlock = paragraphs[1];
-  const closing = paragraphs.slice(2).join('\n\n');
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: '#0c0c14' }}>
@@ -47,14 +41,13 @@ export default function DmcaPage() {
         <Link href="/repository" style={{ fontSize: '13px', color: GOLD, textDecoration: 'none', display: 'inline-block', marginBottom: '32px' }}>{t('nav.back')}</Link>
         <h1 style={{ margin: '0 0 32px', fontSize: '28px', fontWeight: 800, color: GOLD, letterSpacing: '1px' }}>{t('dmca.title')}</h1>
         <div style={{ fontSize: '15px', color: 'rgba(255,255,255,0.7)', lineHeight: 1.8 }}>
-          <p style={{ margin: '0 0 16px' }}>{intro}</p>
-          {subIntro && <p style={{ margin: '0 0 20px' }}>{subIntro}</p>}
-          <div style={{ margin: '0 0 20px', paddingLeft: '0' }}>{numberedBlock.split('\n').map((line, i) => (
-            <p key={i} style={{ margin: '0 0 8px' }}>{line}</p>
-          ))}</div>
-          <div>{closing.split('\n\n').map((p, i) => (
-            <p key={i} style={{ margin: '0 0 16px' }}>{p}</p>
-          ))}</div>
+          {body.split('\n\n').map((para, idx) => (
+            <div key={idx} style={{ marginBottom: '16px' }}>
+              {para.split('\n').map((line, li) => (
+                <p key={li} style={{ margin: '0 0 6px' }}>{line}</p>
+              ))}
+            </div>
+          ))}
         </div>
       </main>
       <LegalFooter />
