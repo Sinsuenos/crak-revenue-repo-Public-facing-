@@ -42,3 +42,6 @@ download/
 crak-revenue-repo-Public-facing-/
 bun.lock
 ss.js
+repository-*.png
+public/background.jpg
+upload/
