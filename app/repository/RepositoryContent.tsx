@@ -7,8 +7,9 @@ import { useI18n, getCatLabel, GOLD, type Locale } from '@/lib/i18n';
 import LegalFooter from '../components/LegalFooter';
 import LanguageToggle from '../components/LanguageToggle';
 
-function OfferCard({ offer }: { offer: (typeof offers)[number] }) {
+function OfferCard({ offer, locale }: { offer: (typeof offers)[number]; locale: Locale }) {
   const c = getCategoryColor(offer.category);
+  const caption = locale === 'es' ? offer.captionEs : offer.caption;
   return (
     <Link href={`/go/${offer.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
       <div style={{
@@ -28,7 +29,7 @@ function OfferCard({ offer }: { offer: (typeof offers)[number] }) {
         <div style={{ height: '3px', background: `linear-gradient(90deg, ${c}, ${c}80)` }} />
         <div style={{ padding: '10px 14px 12px' }}>
           <h2 style={{ margin: '0 0 4px', fontSize: '14px', fontWeight: 700, color: '#f0f0f0', lineHeight: '1.3', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{offer.title}</h2>
-          <p style={{ margin: 0, fontSize: '12px', color: c, lineHeight: '1.3', fontWeight: 500, letterSpacing: '0.2px' }}>{offer.caption}</p>
+          <p style={{ margin: 0, fontSize: '12px', color: c, lineHeight: '1.3', fontWeight: 500, letterSpacing: '0.2px' }}>{caption}</p>
         </div>
       </div>
     </Link>
@@ -133,7 +134,7 @@ export default function RepositoryContent() {
           <div key={group.label} style={{ marginBottom: '32px' }}>
             <CategoryBanner categoryLabel={group.label} locale={locale} />
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} />)}
+              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} locale={locale} />)}
             </div>
           </div>
         ))}
@@ -142,7 +143,7 @@ export default function RepositoryContent() {
           <div key={group.label} style={{ marginBottom: '32px' }}>
             <CategoryBanner categoryLabel={group.label} locale={locale} />
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} />)}
+              {group.offers.map((o) => <OfferCard key={o.slug} offer={o} locale={locale} />)}
             </div>
           </div>
         ))}

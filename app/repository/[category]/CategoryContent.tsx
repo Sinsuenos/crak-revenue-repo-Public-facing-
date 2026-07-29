@@ -3,11 +3,12 @@
 import Link from 'next/link';
 import { offers } from '@/data/offers';
 import { categories, getCategoryColor } from '@/data/categories';
-import { useI18n, GOLD } from '@/lib/i18n';
+import { useI18n, GOLD, getCatLabel, type Locale } from '@/lib/i18n';
 import LegalFooter from '../../components/LegalFooter';
 import LanguageToggle from '../../components/LanguageToggle';
 
-function OfferCard({ offer, color }: { offer: (typeof offers)[number]; color: string }) {
+function OfferCard({ offer, color, locale }: { offer: (typeof offers)[number]; color: string; locale: Locale }) {
+  const caption = locale === 'es' ? offer.captionEs : offer.caption;
   return (
     <Link href={`/go/${offer.slug}`} style={{ textDecoration: 'none', display: 'block' }}>
       <div style={{
@@ -27,7 +28,7 @@ function OfferCard({ offer, color }: { offer: (typeof offers)[number]; color: st
         <div style={{ height: '3px', background: `linear-gradient(90deg, ${color}, ${color}80)` }} />
         <div style={{ padding: '10px 14px 12px' }}>
           <h2 style={{ margin: '0 0 4px', fontSize: '14px', fontWeight: 700, color: '#f0f0f0', lineHeight: '1.3', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{offer.title}</h2>
-          <p style={{ margin: 0, fontSize: '12px', color, lineHeight: '1.3', fontWeight: 500, letterSpacing: '0.2px' }}>{offer.caption}</p>
+          <p style={{ margin: 0, fontSize: '12px', color, lineHeight: '1.3', fontWeight: 500, letterSpacing: '0.2px' }}>{caption}</p>
         </div>
       </div>
     </Link>
@@ -52,11 +53,11 @@ export default function CategoryContent({ categorySlug }: { categorySlug: string
           <Link href="/repository" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.35)', textDecoration: 'none', display: 'inline-block', marginBottom: '12px' }}>
             {t('repo.back_categories')}
           </Link>
-          <h1 style={{ margin: '0 0 6px', fontSize: '26px', fontWeight: 800, color: cat.color, letterSpacing: '-0.5px' }}>{cat.label}</h1>
+          <h1 style={{ margin: '0 0 6px', fontSize: '26px', fontWeight: 800, color: cat.color, letterSpacing: '-0.5px' }}>{getCatLabel(cat.slug, locale)}</h1>
           <p style={{ margin: 0, fontSize: '14px', color: 'rgba(255,255,255,0.4)' }}>{availableText}</p>
         </header>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
-          {filtered.map((o) => <OfferCard key={o.slug} offer={o} color={cat.color} />)}
+          {filtered.map((o) => <OfferCard key={o.slug} offer={o} color={cat.color} locale={locale} />)}
         </div>
       </main>
       <LegalFooter />

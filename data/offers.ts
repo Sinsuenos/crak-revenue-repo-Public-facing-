@@ -7,6 +7,7 @@ export type Offer = {
   countries: string[];
   imageUrl?: string;
   caption: string;
+  captionEs: string;
 };
 
 export const offers: Offer[] = [
@@ -27,6 +28,7 @@ export const offers: Offer[] = [
       'United States'
     ],
     caption: 'Real Creator Connections',
+    captionEs: 'Conexiones Reales con Creadores',
     imageUrl: '/banners/ohchat.png'
   },
   {
@@ -37,6 +39,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10345/0?aff_sub=AI&aff_sub2=DARLINK&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Girlfriend',
+    captionEs: 'Crea tu Novia IA',
     imageUrl: '/banners/darlink-ai.png'
   },
   {
@@ -47,6 +50,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10022/0?aff_sub=CANDYAI&aff_sub2=GF&aff_sub3=PPS36&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Girlfriend App',
+    captionEs: 'App de Novia IA',
     imageUrl: '/banners/candy-ai-girlfriend.png'
   },
   {
@@ -57,6 +61,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10022/37968?aff_sub=GPRIVADO_MALEAIGAY_PPSCANDY&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Boyfriend',
+    captionEs: 'Crea tu Novio IA',
     imageUrl: '/banners/candy-ai-boyfriend.png'
   },
   {
@@ -67,6 +72,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10022/37991?aff_sub=GPRIVADO_TRANAI_PPSCANDY&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Girlfriend',
+    captionEs: 'Crea tu Novia IA',
     imageUrl: '/banners/candy-ai-tran.png'
   },
   {
@@ -77,6 +83,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10417/40591?aff_sub=SinSuenos_PPS_LATINA&aff_sub2=SINNOCHES_PPS_LATINA&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Video Generator',
+    captionEs: 'Generador de Video IA',
     imageUrl: '/banners/mylovely-ai-latina.png'
   },
   {
@@ -87,6 +94,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10223/40125?aff_sub=SinNoches_PPS_AISFW_June1&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Porn Generator',
+    captionEs: 'Generador de Porno IA',
     imageUrl: '/banners/lovescape-ai.png'
   },
   {
@@ -97,6 +105,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10349/39982?aff_sub=Sinnoches_PPS_AIGF&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Girlfriend Chat',
+    captionEs: 'Chat con Novia IA',
     imageUrl: '/banners/xotic-female.png'
   },
   {
@@ -107,6 +116,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/7942?aff_sub=AUTOLAND_SUENOS_JUNE5&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Smart Landing',
+    captionEs: 'Landing Inteligente IA',
     imageUrl: '/banners/spicier-autoland.png'
   },
   {
@@ -117,6 +127,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10257/39822?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Character Creation',
+    captionEs: 'Creación de Personajes IA',
     imageUrl: '/banners/spicier-tran-ai.png'
   },
   {
@@ -127,6 +138,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10404/0?aff_sub=GPRIV&aff_sub2=SNOCH&aff_sub3=SSUENO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Cam Companions',
+    captionEs: 'Compañeras Cámara IA',
     imageUrl: '/banners/flirtcam-ai.png'
   },
   {
@@ -137,6 +149,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40553?aff_sub=GPRIVADO&source=x&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Companion',
+    captionEs: 'Crea tu Compañero IA',
     imageUrl: '/banners/dondi-male-ai.png'
   },
   {
@@ -147,6 +160,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Companion',
+    captionEs: 'Crea tu Compañero IA',
     imageUrl: '/banners/dondi-gf-pc.png'
   },
   {
@@ -157,6 +171,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Companion',
+    captionEs: 'Crea tu Compañero IA',
     imageUrl: '/banners/dondi-gf-mobile.png'
   },
   {
@@ -167,6 +182,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/7795?aff_sub=PerlaPuente&aff_sub2=Phone&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'NSFW AI Chat',
+    captionEs: 'Chat IA +18',
     imageUrl: '/banners/get-harder.png'
   },
   {
@@ -177,6 +193,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'NSFW AI Chat',
+    captionEs: 'Chat IA +18',
     imageUrl: '/banners/get-harder-2.png'
   },
   {
@@ -235,6 +252,7 @@ export const offers: Offer[] = [
       'Asia', 'Europe'
     ],
     caption: 'NSFW AI Chat',
+    captionEs: 'Chat IA +18',
     imageUrl: '/banners/lusy-ai.png'
   },
   {
@@ -245,6 +263,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10423/0?aff_sub=SSUEN&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Girlfriend Chatbot',
+    captionEs: 'Chatbot de Novia IA',
     imageUrl: '/banners/lovel-ai.png'
   },
 
@@ -262,6 +281,7 @@ export const offers: Offer[] = [
       'Thailand', 'United Kingdom', 'United States'
     ],
     caption: 'Trans Dating Hub',
+    captionEs: 'Centro de Citas Trans',
     imageUrl: '/banners/trans-smartlink.png'
   },
   {
@@ -272,6 +292,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Links',
+    captionEs: 'Enlaces de Citas Trans',
     imageUrl: '/banners/x-trans-dating.png'
   },
   {
@@ -282,6 +303,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32491?aff_sub=TRANS&aff_sub2=JMATE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Live Adult Cams',
+    captionEs: 'Cámaras Adultos en Vivo',
     imageUrl: '/banners/jerkmate-trans.png'
   },
   {
@@ -292,6 +314,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk1.com/413627/5170/29363?aff_sub=TRANS&aff_sub2=CMSODA&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Live Cams',
+    captionEs: 'Cámaras Trans en Vivo',
     imageUrl: '/banners/camsoda-trans.png'
   },
   {
@@ -302,6 +325,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/7090?aff_sub=REVIEWF&aff_sub2=REVIEWX&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Cross Dresser Dating',
+    captionEs: 'Citas Cross Dresser',
     imageUrl: '/banners/cross-dresser.png'
   },
 
@@ -314,6 +338,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Dating Hub',
+    captionEs: 'Centro de Citas Gay',
     imageUrl: '/banners/gay-dating-smartlink.png'
   },
   {
@@ -324,6 +349,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/10378/0?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Dating App',
+    captionEs: 'App de Citas Gay',
     imageUrl: '/banners/gay-bloom.png'
   },
   {
@@ -334,6 +360,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Mature Dating',
+    captionEs: 'Citas Gay Maduras',
     imageUrl: '/banners/filf-gay.png'
   },
 
@@ -346,6 +373,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/4593/40617?aff_sub=DATING&aff_sub2=VICMILAN&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Discreet Affair Dating',
+    captionEs: 'Citas Discretas',
     imageUrl: '/banners/vicky-milan.png'
   },
   {
@@ -356,6 +384,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Latina Casual Hookups',
+    captionEs: 'Encuentros Casuales Latinas',
     imageUrl: '/banners/instabang-latinas.png'
   },
   {
@@ -366,6 +395,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Passionate Local Dating',
+    captionEs: 'Citas Locales Apasionadas',
     imageUrl: '/banners/vecina-pasionales.png'
   },
   {
@@ -376,6 +406,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/8227?aff_sub=DATING&aff_sub2=HTWNFLRT&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Local Flirt Dating',
+    captionEs: 'Citas Coqueteo Local',
     imageUrl: '/banners/hometown-flirt.png'
   },
   {
@@ -386,6 +417,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/8532/0?aff_sub=GPRIV&aff_sub2=SSUEN&aff_sub3=PPUEN&aff_sub4=LCHIB&source=TT&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Latino Casual Dating',
+    captionEs: 'Citas Casuales Latinas',
     imageUrl: '/banners/litlatinz.png'
   },
   {
@@ -396,6 +428,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/9328/0?aff_sub=SSUEN&aff_sub2=GPRIV&aff_sub3=SNOCH&aff_sub4=PPUEN&source=TT&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Discreet FWB Dating',
+    captionEs: 'Citas Amigos con Derechos',
     imageUrl: '/banners/lustfriend.png'
   },
   {
@@ -406,6 +439,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/9702/0?aff_sub=CARRD2&aff_sub2=NICVHE+PG&source=TT&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gamer Dating Platform',
+    captionEs: 'Plataforma de Citas Gamers',
     imageUrl: '/banners/date-player-two.png'
   },
   {
@@ -416,6 +450,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjms.com/413627/3785/0?target=nativeads&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Private Dating Links',
+    captionEs: 'Enlaces de Citas Privadas',
     imageUrl: '/banners/suenos-privados-dating.png'
   },
   {
@@ -426,6 +461,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg2.com/413627/10091/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Meet New People',
+    captionEs: 'Conoce Gente Nueva',
     imageUrl: '/banners/ways-to-meet.png'
   },
 
@@ -438,6 +474,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.anadw.link/413627/10421/0?aff_sub=SUENOS&aff_sub2=PRIVADOS&aff_sub3=NOCHES&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Interactive Porn Games',
+    captionEs: 'Juegos Porno Interactivos',
     imageUrl: '/banners/xgamehub.png'
   },
   {
@@ -448,6 +485,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/8228/0?aff_sub=SUENOS&aff_sub2=SNOCHES&aff_sub3=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: '420 Friendly Dating',
+    captionEs: 'Citas 420 Friendly',
     imageUrl: '/banners/smoke-and-poke.png'
   },
   {
@@ -458,6 +496,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/7234?aff_sub=SSuenos_Smrtlnk&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Uncensored Adult Chat',
+    captionEs: 'Chat Adulto Sin Censura',
     imageUrl: '/banners/sex-messenger.png'
   },
   {
@@ -468,6 +507,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg2.com/413627/4593/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Discreet Affair Dating',
+    captionEs: 'Citas Discretas',
     imageUrl: '/banners/milan.png'
   },
 
@@ -480,6 +520,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/9304/36088?aff_sub=FANSTE&aff_sub2=DNKAMRIVIP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Creator Content',
+    captionEs: 'Contenido Premium de Creadores',
     imageUrl: '/banners/mym-fans.png'
   },
   {
@@ -490,6 +531,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Mila',
+    captionEs: 'Suscríbete a Mila',
     imageUrl: '/banners/mila-lerue.png'
   },
   {
@@ -500,6 +542,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Amber',
+    captionEs: 'Suscríbete a Amber',
     imageUrl: '/banners/amber-santori.png'
   },
   {
@@ -510,6 +553,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Lina',
+    captionEs: 'Suscríbete a Lina',
     imageUrl: '/banners/lina-rose.png'
   },
 
@@ -522,6 +566,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/9927/38131?aff_sub=PAY&aff_sub2=LATINA&aff_sub3=SEXTPANTHR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Latina Sexting',
+    captionEs: 'Sexting Latina',
     imageUrl: '/banners/sext-panther.png'
   },
   {
@@ -532,6 +577,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acam-2.com/413627/10363/0?aff_sub=PAY&aff_sub2=OPTILP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Nude News Broadcasts',
+    captionEs: 'Noticias al Desnudo',
     imageUrl: '/banners/naked-news.png'
   },
   {
@@ -542,6 +588,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.bbwafx.com/413627/10405/0?aff_sub=SSUEN&aff_sub2=SINNOCTUN&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Studio Access',
+    captionEs: 'Acceso a Estudios Premium',
     imageUrl: '/banners/vixenplus.png'
   },
 
@@ -554,6 +601,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/6621?aff_sub=GAMES&aff_sub2=MNGRPG&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Manga Adult RPG',
+    captionEs: 'RPG Adulto Manga',
     imageUrl: '/banners/manga-rpg.png'
   },
   {
@@ -564,6 +612,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.aagm.link/413627/7930/27132?aff_sub=GAMES&aff_sub2=CMXHRM&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Comic Harem Game',
+    captionEs: 'Juego de Harem Comic',
     imageUrl: '/banners/comix-harem.png'
   },
   {
@@ -574,6 +623,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.anadw.link/413627/8663/35415?aff_sub=GolfoPrivadoTranGame&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Harem Game',
+    captionEs: 'Juego de Harem Trans',
     imageUrl: '/banners/tran-game.png'
   },
 
@@ -586,6 +636,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32514?aff_sub=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Live Adult Cams',
+    captionEs: 'Cámaras Adultos en Vivo',
     imageUrl: '/banners/jerkmate-live.png'
   },
   {
@@ -596,6 +647,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acrsmartcam.com/413627/9776/38186?aff_sub=PerlaPuente30R&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Live Webcam Shows',
+    captionEs: 'Shows de Webcam en Vivo',
     imageUrl: '/banners/camirada.png'
   },
   {
@@ -606,6 +658,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.ajrkmx1.com/413627/8780/0?aff_sub=X_SP_PPS&source=xTwitter&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Live Adult Cams',
+    captionEs: 'Cámaras Adultos en Vivo',
     imageUrl: '/banners/jerkmate-pps.png'
   },
   {
@@ -616,6 +669,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk7.com/413627/2118/0?aff_sub=CAMS&aff_sub2=DFLTLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Niche Live Cams',
+    captionEs: 'Cámaras en Vivo de Nicho',
     imageUrl: '/banners/imlive.png'
   },
   {
@@ -626,6 +680,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acrsmartcam.com/413627/7758/40246?aff_sub=SSUEN&aff_sub2=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Live Couple Cams',
+    captionEs: 'Cámaras de Parejas en Vivo',
     imageUrl: '/banners/sweepsex-cams.png'
   },
 ];

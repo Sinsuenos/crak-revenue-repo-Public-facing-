@@ -96,9 +96,17 @@ export function I18nProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY) as Locale | null;
-      if (saved === 'es' || saved === 'en') setLocaleState(saved);
-    } catch {}
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved === 'es' || saved === 'en') {
+        setLocaleState(saved);
+      } else {
+        // First visit: default to English and persist it
+        setLocaleState('en');
+        localStorage.setItem(STORAGE_KEY, 'en');
+      }
+    } catch {
+      setLocaleState('en');
+    }
     setMounted(true);
   }, []);
 
