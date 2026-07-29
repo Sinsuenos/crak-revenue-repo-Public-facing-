@@ -6,11 +6,11 @@ import LanguageToggle from '../../components/LanguageToggle';
 import LegalFooter from '../../components/LegalFooter';
 
 const text = {
-  en: `Welcome to Cantina Virtuale.
+  en: `Welcome to Cantina Virtual.
 We are happy to hear from you. Whether you have questions, need support, want to discuss a business inquiry, or are a creator interested in collaboration, we welcome your message.
 Reach us at: sinaloainspireddreams@gmail.com
 We do our best to respond within 72 hours.`,
-  es: `Bienvenido a Cantina Virtuale.
+  es: `Bienvenido a Cantina Virtual.
 Estamos felices de saber de usted. Ya sea que tenga preguntas, necesite soporte, quiera discutir una consulta comercial o sea un creador interesado en colaborar, recibimos su mensaje con gusto.
 Contáctenos en: sinaloainspireddreams@gmail.com
 Hacemos nuestro mejor esfuerzo por responder dentro de las 72 horas.`,

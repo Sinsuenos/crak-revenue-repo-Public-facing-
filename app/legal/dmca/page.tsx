@@ -6,8 +6,8 @@ import LanguageToggle from '../../components/LanguageToggle';
 import LegalFooter from '../../components/LegalFooter';
 
 const text = {
-  en: `Cantina Virtuale respects the intellectual property rights of others and expects its users to do the same.
-If you believe that content available on or through Cantina Virtuale infringes one or more of your copyrights, please notify us by providing the following information:
+  en: `Cantina Virtual respects the intellectual property rights of others and expects its users to do the same.
+If you believe that content available on or through Cantina Virtual infringes one or more of your copyrights, please notify us by providing the following information:
 1. A description of the copyrighted work you claim has been infringed.
 2. A description of where the allegedly infringing material is located on the site, sufficient for us to locate it.
 3. Your contact information, including name, email address, and physical address.
@@ -17,8 +17,8 @@ If you believe that content available on or through Cantina Virtuale infringes o
 Identity verification may be required to process your request.
 All copyright and image removal requests should be directed to: sinaloainspireddreams@gmail.com
 We will make our best effort to respond within 72 hours of receiving a complete and valid notice.`,
-  es: `Cantina Virtuale respeta los derechos de propiedad intelectual de terceros y espera que sus usuarios hagan lo mismo.
-Si usted cree que el contenido disponible en o a través de Cantina Virtuale infringe uno o más de sus derechos de autor, por favor notifíquenos proporcionando la siguiente información:
+  es: `Cantina Virtual respeta los derechos de propiedad intelectual de terceros y espera que sus usuarios hagan lo mismo.
+Si usted cree que el contenido disponible en o a través de Cantina Virtual infringe uno o más de sus derechos de autor, por favor notifíquenos proporcionando la siguiente información:
 1. Una descripción de la obra con derechos de autor que usted afirma ha sido infringida.
 2. Una descripción de dónde se encuentra el material presuntamente infractor en el sitio, suficiente para que podamos localizarlo.
 3. Su información de contacto, incluyendo nombre, correo electrónico y dirección física.

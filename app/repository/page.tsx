@@ -1,7 +1,7 @@
 import RepositoryContent from './RepositoryContent';
 
 export const metadata = {
-  title: 'Offer Repository — Cantina Virtuale',
+  title: 'Offer Repository — Cantina Virtual',
   description: 'Browse all available offers by category.',
 };
 
