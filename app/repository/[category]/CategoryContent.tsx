@@ -20,9 +20,8 @@ function OfferCard({ offer, color, locale }: { offer: (typeof offers)[number]; c
         onMouseLeave={(e) => { const el = e.currentTarget; el.style.transform = 'translateY(0)'; el.style.borderColor = 'rgba(255,255,255,0.07)'; el.style.boxShadow = 'none'; }}
       >
         {offer.imageUrl && (
-          <div style={{ width: '100%', height: '152px', overflow: 'hidden', position: 'relative' }}>
-            <img src={offer.imageUrl} alt={offer.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-            <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '50px', background: 'linear-gradient(transparent, rgba(12,12,20,0.85))', pointerEvents: 'none' }} />
+          <div style={{ width: '100%', height: '152px', overflow: 'hidden', position: 'relative', background: '#0f0f1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <img src={offer.imageUrl} alt={offer.title} loading="lazy" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', display: 'block' }} />
           </div>
         )}
         <div style={{ height: '3px', background: `linear-gradient(90deg, ${color}, ${color}80)` }} />

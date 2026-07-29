@@ -3,7 +3,7 @@ import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Cantina Virtuale",
+  title: "Cantina Virtual",
   description: "Public directory of available offers.",
   robots: { index: true, follow: true },
 };

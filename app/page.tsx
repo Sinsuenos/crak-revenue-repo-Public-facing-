@@ -1,7 +1,7 @@
 import AgeGateContent from './components/AgeGateContent';
 
 export const metadata = {
-  title: 'Cantina Virtuale',
+  title: 'Cantina Virtual',
   description: 'Age verification required. You must be 18 or older to enter.',
 };
 

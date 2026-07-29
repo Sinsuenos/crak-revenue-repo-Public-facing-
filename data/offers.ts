@@ -562,7 +562,7 @@ export const offers: Offer[] = [
   },
   {
     slug: 'x-trans-dating',
-    title: 'X Trans Dating',
+    title: 'Trans Dating',
     category: 'Transgender',
     description: 'Trans dating smartlink',
     affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',

@@ -22,7 +22,7 @@ export const GOLD = '#DAB12A';
 
 const ui: Record<Locale, Record<string, string>> = {
   en: {
-    'age.subtitle': 'AI Companions \u00b7 Dating \u00b7 Trans \u00b7 Cams \u00b7 Games \u00b7 Fan Content',
+    'age.subtitle': 'Dating \u00b7 Live Cams \u00b7 AI Companions \u00b7 Fansites \u00b7 Paysites \u00b7 Gay \u00b7 Games \u00b7 Transgender',
     'age.contact_prefix': 'Looking for something specific? Contact me.',
     'age.enter': 'ENTER',
     'age.exit': 'EXIT',
@@ -36,14 +36,14 @@ const ui: Record<Locale, Record<string, string>> = {
     'footer.privacy': 'PRIVACY',
     'footer.terms': 'TERMS',
     'footer.contact': 'CONTACT',
-    'nav.back': '\u2190 CANTINA VIRTUALE',
+    'nav.back': '\u2190 CANTINA VIRTUAL',
     'dmca.title': 'DMCA Takedown Policy',
     'privacy.title': 'Privacy Policy',
     'terms.title': 'Terms of Service',
     'contact.title': 'Contact',
   },
   es: {
-    'age.subtitle': 'Compa\u00f1eros IA \u00b7 Citas \u00b7 Trans \u00b7 C\u00e1maras \u00b7 Juegos \u00b7 Contenido de Fans',
+    'age.subtitle': 'Citas \u00b7 C\u00e1maras en Vivo \u00b7 Compa\u00f1eros IA \u00b7 Sitios de Fans \u00b7 Sitios Premium \u00b7 Gay \u00b7 Juegos \u00b7 Transg\u00e9nero',
     'age.contact_prefix': 'Buscas algo espec\u00edfico? Cont\u00e1ctame.',
     'age.enter': 'ENTRAR',
     'age.exit': 'SALIR',
@@ -57,7 +57,7 @@ const ui: Record<Locale, Record<string, string>> = {
     'footer.privacy': 'PRIVACIDAD',
     'footer.terms': 'T\u00c9RMINOS',
     'footer.contact': 'CONTACTO',
-    'nav.back': '\u2190 CANTINA VIRTUALE',
+    'nav.back': '\u2190 CANTINA VIRTUAL',
     'dmca.title': 'Pol\u00edtica de Retiro DMCA',
     'privacy.title': 'Pol\u00edtica de Privacidad',
     'terms.title': 'T\u00e9rminos de Servicio',

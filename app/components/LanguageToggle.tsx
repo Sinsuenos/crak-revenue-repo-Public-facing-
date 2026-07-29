@@ -16,27 +16,28 @@ export default function LanguageToggle() {
         top: '16px',
         right: '16px',
         zIndex: 100,
-        padding: '6px 14px',
-        borderRadius: '6px',
+        padding: '8px 20px',
+        borderRadius: '8px',
         border: `1.5px solid ${GOLD}`,
-        background: 'transparent',
+        background: 'rgba(12,12,20,0.7)',
         color: GOLD,
-        fontSize: '13px',
-        fontWeight: 600,
+        fontSize: '14px',
+        fontWeight: 700,
         cursor: 'pointer',
         letterSpacing: '1px',
         transition: 'background 0.15s, color 0.15s',
+        backdropFilter: 'blur(8px)',
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.background = GOLD;
         e.currentTarget.style.color = '#0c0c14';
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.background = 'transparent';
+        e.currentTarget.style.background = 'rgba(12,12,20,0.7)';
         e.currentTarget.style.color = GOLD;
       }}
     >
-      {locale === 'en' ? 'ES' : 'EN'}
+      {locale === 'en' ? 'Español' : 'English'}
     </button>
   );
 }

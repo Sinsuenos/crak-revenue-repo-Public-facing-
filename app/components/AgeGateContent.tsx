@@ -1,13 +1,14 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useI18n, GOLD } from '@/lib/i18n';
+import { useI18n, GOLD, getCatLabel } from '@/lib/i18n';
 import LegalFooter from './LegalFooter';
 import LanguageToggle from './LanguageToggle';
+import { categories } from '@/data/categories';
 
 export default function AgeGateContent() {
   const router = useRouter();
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   return (
     <div style={{
@@ -58,7 +59,7 @@ export default function AgeGateContent() {
         <h1 style={{
           margin: '0 0 16px', fontSize: '42px', fontWeight: 800, color: GOLD,
           letterSpacing: '8px', textAlign: 'center',
-        }}>CANTINA VIRTUALE</h1>
+        }}>CANTINA VIRTUAL</h1>
 
         <p style={{
           margin: '0 0 24px', fontSize: '15px', color: 'rgba(255,255,255,0.5)',
@@ -66,11 +67,29 @@ export default function AgeGateContent() {
         }}>{t('age.subtitle')}</p>
 
         <p style={{
-          margin: '0 0 48px', fontSize: '14px', color: 'rgba(255,255,255,0.4)', textAlign: 'center',
+          margin: '0 0 20px', fontSize: '14px', color: 'rgba(255,255,255,0.4)', textAlign: 'center',
         }}>
           {t('age.contact_prefix')}{' '}
           <a href="mailto:sinaloainspireddreams@gmail.com" style={{ color: GOLD, textDecoration: 'none' }}>sinaloainspireddreams@gmail.com</a>
         </p>
+
+        <div style={{
+          display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
+          gap: '10px', maxWidth: '640px', width: '100%', margin: '0 0 32px',
+        }}>
+          {categories.filter(c => c.slug !== 'unique-offers').map((cat) => (
+            <div key={cat.slug} style={{
+              textAlign: 'center', padding: '10px 8px',
+              borderRadius: '10px', border: `1px solid ${cat.color}40`,
+              background: `${cat.color}10`,
+            }}>
+              <span style={{
+                fontSize: '12px', fontWeight: 700, color: cat.color,
+                letterSpacing: '0.5px', textTransform: 'uppercase',
+              }}>{getCatLabel(cat.slug, locale)}</span>
+            </div>
+          ))}
+        </div>
 
         <button
           onClick={() => router.push('/repository')}
