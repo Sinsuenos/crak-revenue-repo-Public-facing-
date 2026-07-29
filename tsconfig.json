@@ -15,9 +15,17 @@
     "incremental": true,
     "plugins": [{ "name": "next" }],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./crak-revenue-repo-Public-facing-/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "crak-revenue-repo-Public-facing-/app/**/*.ts",
+    "crak-revenue-repo-Public-facing-/app/**/*.tsx",
+    "crak-revenue-repo-Public-facing-/lib/**/*.ts",
+    "crak-revenue-repo-Public-facing-/lib/**/*.tsx",
+    "crak-revenue-repo-Public-facing-/data/**/*.ts",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }
