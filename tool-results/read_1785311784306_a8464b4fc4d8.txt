@@ -1,0 +1,686 @@
+     1→export type Offer = {
+     2→  slug: string;
+     3→  title: string;
+     4→  category: string;
+     5→  description: string;
+     6→  affiliateUrl: string;
+     7→  countries: string[];
+     8→  imageUrl?: string;
+     9→  caption: string;
+    10→  captionEs: string;
+    11→};
+    12→
+    13→export const offers: Offer[] = [
+    14→  // ── AI Companions ──────────────────────────────────────────────
+    15→  {
+    16→    slug: 'ohchat',
+    17→    title: 'OhChat',
+    18→    category: 'AI Companions',
+    19→    description: 'Real creators. Real connection.',
+    20→    affiliateUrl: 'https://t.vlmai-1.com/413627/10464/0?aff_sub=NCTRENTRY&aff_sub2=AI&aff_sub3=OHCHAT&source=REPO&aff_sub5=SF_006OG000004lmDN',
+    21→    countries: [
+    22→      'Australia', 'Austria', 'Belgium', 'Bulgaria', 'Canada', 'Croatia',
+    23→      'Czech Republic', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany',
+    24→      'Greece', 'Hungary', 'Ireland', 'Israel', 'Italy', 'Japan', 'Latvia',
+    25→      'Lithuania', 'Luxembourg', 'Malta', 'Monaco', 'Netherlands', 'New Zealand',
+    26→      'Norway', 'Poland', 'Portugal', 'Romania', 'Singapore', 'Slovakia', 'Spain',
+    27→      'Sweden', 'Switzerland', 'United Arab Emirates', 'Turkey', 'United Kingdom',
+    28→      'United States'
+    29→    ],
+    30→    caption: 'Real Creator Connections',
+    31→    captionEs: 'Conexiones Reales con Creadores',
+    32→    imageUrl: '/banners/ohchat.png'
+    33→  },
+    34→  {
+    35→    slug: 'darlink-ai',
+    36→    title: 'Darlink AI',
+    37→    category: 'AI Companions',
+    38→    description: 'AI girlfriend companion platform',
+    39→    affiliateUrl: 'https://t.vlmai-1.com/413627/10345/0?aff_sub=AI&aff_sub2=DARLINK&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    40→    countries: [],
+    41→    caption: 'Create AI Girlfriend',
+    42→    captionEs: 'Crea tu Novia IA',
+    43→    imageUrl: '/banners/darlink-ai.png'
+    44→  },
+    45→  {
+    46→    slug: 'candy-ai-girlfriend',
+    47→    title: 'Candy AI',
+    48→    category: 'AI Companions',
+    49→    description: 'Candy AI girlfriend platform',
+    50→    affiliateUrl: 'https://t.vlmai-1.com/413627/10022/0?aff_sub=CANDYAI&aff_sub2=GF&aff_sub3=PPS36&source=X&aff_sub5=SF_006OG000004lmDN',
+    51→    countries: [],
+    52→    caption: 'AI Girlfriend App',
+    53→    captionEs: 'App de Novia IA',
+    54→    imageUrl: '/banners/candy-ai-girlfriend.png'
+    55→  },
+    56→  {
+    57→    slug: 'candy-ai-boyfriend',
+    58→    title: 'Candy AI Boyfriend',
+    59→    category: 'AI Companions',
+    60→    description: 'Candy AI male boyfriend',
+    61→    affiliateUrl: 'https://t.vlmai-1.com/413627/10022/37968?aff_sub=GPRIVADO_MALEAIGAY_PPSCANDY&source=X&aff_sub5=SF_006OG000004lmDN',
+    62→    countries: [],
+    63→    caption: 'Create AI Boyfriend',
+    64→    captionEs: 'Crea tu Novio IA',
+    65→    imageUrl: '/banners/candy-ai-boyfriend.png'
+    66→  },
+    67→  {
+    68→    slug: 'candy-ai-tran',
+    69→    title: 'Candy AI Trans',
+    70→    category: 'AI Companions',
+    71→    description: 'Candy AI tran anime landing',
+    72→    affiliateUrl: 'https://t.vlmai-1.com/413627/10022/37991?aff_sub=GPRIVADO_TRANAI_PPSCANDY&source=X&aff_sub5=SF_006OG000004lmDN',
+    73→    countries: [],
+    74→    caption: 'Create AI Girlfriend',
+    75→    captionEs: 'Crea tu Novia IA',
+    76→    imageUrl: '/banners/candy-ai-tran.png'
+    77→  },
+    78→  {
+    79→    slug: 'mylovely-ai-latina',
+    80→    title: 'MyLovely AI',
+    81→    category: 'AI Companions',
+    82→    description: 'MyLovely AI Latina companion',
+    83→    affiliateUrl: 'https://t.vlmai-1.com/413627/10417/40591?aff_sub=SinSuenos_PPS_LATINA&aff_sub2=SINNOCHES_PPS_LATINA&source=X&aff_sub5=SF_006OG000004lmDN',
+    84→    countries: [],
+    85→    caption: 'AI Video Generator',
+    86→    captionEs: 'Generador de Video IA',
+    87→    imageUrl: '/banners/mylovely-ai-latina.png'
+    88→  },
+    89→  {
+    90→    slug: 'lovescape-ai',
+    91→    title: 'Lovescape',
+    92→    category: 'AI Companions',
+    93→    description: 'AI female companion experience',
+    94→    affiliateUrl: 'https://t.vlmai-1.com/413627/10223/40125?aff_sub=SinNoches_PPS_AISFW_June1&source=X&aff_sub5=SF_006OG000004lmDN',
+    95→    countries: [],
+    96→    caption: 'AI Porn Generator',
+    97→    captionEs: 'Generador de Porno IA',
+    98→    imageUrl: '/banners/lovescape-ai.png'
+    99→  },
+   100→  {
+   101→    slug: 'xotic-female',
+   102→    title: 'Xotic AI',
+   103→    category: 'AI Companions',
+   104→    description: 'Xotic all models female companion',
+   105→    affiliateUrl: 'https://t.vlmai-1.com/413627/10349/39982?aff_sub=Sinnoches_PPS_AIGF&source=X&aff_sub5=SF_006OG000004lmDN',
+   106→    countries: [],
+   107→    caption: 'AI Girlfriend Chat',
+   108→    captionEs: 'Chat con Novia IA',
+   109→    imageUrl: '/banners/xotic-female.png'
+   110→  },
+   111→  {
+   112→    slug: 'spicier-autoland',
+   113→    title: 'Spicier Autoland',
+   114→    category: 'AI Companions',
+   115→    description: 'Spicier autoland AI experience',
+   116→    affiliateUrl: 'https://t.vlmai-1.com/413627/7942?aff_sub=AUTOLAND_SUENOS_JUNE5&source=X&aff_sub5=SF_006OG000004lmDN',
+   117→    countries: [],
+   118→    caption: 'AI Smart Landing',
+   119→    captionEs: 'Landing Inteligente IA',
+   120→    imageUrl: '/banners/spicier-autoland.png'
+   121→  },
+   122→  {
+   123→    slug: 'spicier-tran-ai',
+   124→    title: 'Spicier AI',
+   125→    category: 'AI Companions',
+   126→    description: 'Spicier tran AI companion',
+   127→    affiliateUrl: 'https://t.vlmai-1.com/413627/10257/39822?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
+   128→    countries: [],
+   129→    caption: 'AI Character Creation',
+   130→    captionEs: 'Creación de Personajes IA',
+   131→    imageUrl: '/banners/spicier-tran-ai.png'
+   132→  },
+   133→  {
+   134→    slug: 'flirtcam-ai',
+   135→    title: 'FlirtCam AI',
+   136→    category: 'AI Companions',
+   137→    description: 'FlirtCam AI companion platform',
+   138→    affiliateUrl: 'https://t.vlmai-1.com/413627/10404/0?aff_sub=GPRIV&aff_sub2=SNOCH&aff_sub3=SSUENO&source=X&aff_sub5=SF_006OG000004lmDN',
+   139→    countries: [],
+   140→    caption: 'AI Cam Companions',
+   141→    captionEs: 'Compañeras Cámara IA',
+   142→    imageUrl: '/banners/flirtcam-ai.png'
+   143→  },
+   144→  {
+   145→    slug: 'dondi-male-ai',
+   146→    title: 'Dondi Male AI',
+   147→    category: 'AI Companions',
+   148→    description: 'Build your own male AI companion',
+   149→    affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40553?aff_sub=GPRIVADO&source=x&aff_sub5=SF_006OG000004lmDN',
+   150→    countries: [],
+   151→    caption: 'Create AI Companion',
+   152→    captionEs: 'Crea tu Compañero IA',
+   153→    imageUrl: '/banners/dondi-male-ai.png'
+   154→  },
+   155→  {
+   156→    slug: 'dondi-gf-pc',
+   157→    title: 'Dondi AI Girlfriend',
+   158→    category: 'AI Companions',
+   159→    description: 'Custom AI girlfriend builder, desktop',
+   160→    affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
+   161→    countries: [],
+   162→    caption: 'Create AI Companion',
+   163→    captionEs: 'Crea tu Compañero IA',
+   164→    imageUrl: '/banners/dondi-gf-pc.png'
+   165→  },
+   166→  {
+   167→    slug: 'dondi-gf-mobile',
+   168→    title: 'Dondi AI Girlfriend',
+   169→    category: 'AI Companions',
+   170→    description: 'Custom AI girlfriend builder, mobile',
+   171→    affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
+   172→    countries: [],
+   173→    caption: 'Create AI Companion',
+   174→    captionEs: 'Crea tu Compañero IA',
+   175→    imageUrl: '/banners/dondi-gf-mobile.png'
+   176→  },
+   177→  {
+   178→    slug: 'get-harder',
+   179→    title: 'Get Harder AI',
+   180→    category: 'AI Companions',
+   181→    description: 'Male AI companion enhancement',
+   182→    affiliateUrl: 'https://t.vlmai-1.com/413627/7795?aff_sub=PerlaPuente&aff_sub2=Phone&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   183→    countries: [],
+   184→    caption: 'NSFW AI Chat',
+   185→    captionEs: 'Chat IA +18',
+   186→    imageUrl: '/banners/get-harder.png'
+   187→  },
+   188→  {
+   189→    slug: 'get-harder-2',
+   190→    title: 'Get Harder AI',
+   191→    category: 'AI Companions',
+   192→    description: 'Male AI companion, alternate landing',
+   193→    affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   194→    countries: [],
+   195→    caption: 'NSFW AI Chat',
+   196→    captionEs: 'Chat IA +18',
+   197→    imageUrl: '/banners/get-harder-2.png'
+   198→  },
+   199→  {
+   200→    slug: 'lusy-ai',
+   201→    title: 'LusyChat AI',
+   202→    category: 'AI Companions',
+   203→    description: 'AI companion experience',
+   204→    affiliateUrl: 'https://t.vlmai-1.com/413627/10467/40747?aff_sub=AI&aff_sub2=LUSY&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   205→    countries: [
+   206→      'Afghanistan', 'Albania', 'Antarctica', 'Algeria', 'American Samoa', 'Andorra',
+   207→      'Angola', 'Antigua And Barbuda', 'Azerbaijan', 'Argentina', 'Australia', 'Austria',
+   208→      'Bahamas', 'Bahrain', 'Bangladesh', 'Armenia', 'Barbados', 'Belgium', 'Bermuda',
+   209→      'Bhutan', 'Bolivia', 'Bosnia And Herzegovina', 'Botswana', 'Bouvet Island', 'Brazil',
+   210→      'Belize', 'British Indian Ocean Territory', 'Solomon Islands', 'British Virgin Islands',
+   211→      'Brunei Darussalam', 'Bulgaria', 'Myanmar', 'Burundi', 'Belarus', 'Cambodia',
+   212→      'Cameroon', 'Canada', 'Cape Verde', 'Cayman Islands', 'Central African Republic',
+   213→      'Sri Lanka', 'Chad', 'Chile', 'China', 'Taiwan', 'Christmas Island',
+   214→      'Cocos (Keeling) Islands', 'Colombia', 'Comoros', 'Mayotte', 'Congo',
+   215→      'Democratic Republic Of The Congo', 'Cook Islands', 'Costa Rica', 'Croatia', 'Cuba',
+   216→      'Cyprus', 'Czech Republic', 'Benin', 'Denmark', 'Dominica', 'Dominican Republic',
+   217→      'Ecuador', 'El Salvador', 'Equatorial Guinea', 'Ethiopia', 'Eritrea', 'Estonia',
+   218→      'Faroe Islands', 'Falkland Islands (Malvinas)', 'South Georgia / South Sandwich Isl',
+   219→      'Fiji', 'Finland', 'Aland Islands', 'France', 'French Guiana', 'French Polynesia',
+   220→      'French Southern Territories', 'Djibouti', 'Gabon', 'Georgia', 'Gambia',
+   221→      'Palestinian Territories', 'Germany', 'Ghana', 'Gibraltar', 'Kiribati', 'Greece',
+   222→      'Greenland', 'Grenada', 'Guadeloupe', 'Guam', 'Guatemala', 'Guinea', 'Guyana',
+   223→      'Haiti', 'Heard And Mc Donald Islands', 'Holy See (Vatican City State)', 'Honduras',
+   224→      'Hong Kong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran (Islamic Republic Of)',
+   225→      'Iraq', 'Ireland', 'Israel', 'Italy', 'Cote D Ivoire', 'Jamaica', 'Japan',
+   226→      'Kazakhstan', 'Jordan', 'Kenya', 'North Korea', 'South Korea', 'Kuwait',
+   227→      'Kyrgyzstan', 'Lao Peoples Democratic Republic', 'Lebanon', 'Lesotho', 'Latvia',
+   228→      'Liberia', 'Libyan Arab Jamahiriya', 'Liechtenstein', 'Lithuania', 'Luxembourg',
+   229→      'Macau', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta',
+   230→      'Martinique', 'Mauritania', 'Mauritius', 'Mexico', 'Monaco', 'Mongolia', 'Moldova',
+   231→      'Montenegro', 'Montserrat', 'Morocco', 'Mozambique', 'Oman', 'Namibia', 'Nauru',
+   232→      'Nepal', 'Netherlands', 'Netherlands Antilles', 'Curacao', 'Aruba', 'Sint Maarten',
+   233→      'Bonaire/Sint Eustatius/Saba', 'New Caledonia', 'Vanuatu', 'New Zealand',
+   234→      'Nicaragua', 'Niger', 'Nigeria', 'Niue', 'Norfolk Island', 'Norway',
+   235→      'Northern Mariana Islands', 'Us Minor Outlying Islands',
+   236→      'Federated States Of Micronesia', 'Marshall Islands', 'Palau', 'Pakistan', 'Panama',
+   237→      'Papua New Guinea', 'Paraguay', 'Peru', 'Philippines', 'Pitcairn', 'Poland',
+   238→      'Portugal', 'Guinea-Bissau', 'Timor-Leste', 'Puerto Rico', 'Qatar', 'Reunion',
+   239→      'Romania', 'Russian Federation', 'Rwanda', 'Saint Barthelemy', 'St. Helena',
+   240→      'Saint Kitts And Nevis', 'Anguilla', 'Saint Lucia', 'Saint Martin',
+   241→      'St. Pierre And Miquelon', 'Saint Vincent And The Grenadines', 'San Marino',
+   242→      'Sao Tome And Principe', 'Saudi Arabia', 'Senegal', 'Serbia', 'Seychelles',
+   243→      'Sierra Leone', 'Singapore', 'Slovakia (Slovak Republic)', 'Viet Nam', 'Slovenia',
+   244→      'Somalia', 'South Africa', 'Zimbabwe', 'Spain', 'South Sudan', 'Western Sahara',
+   245→      'Sudan', 'Suriname', 'Svalbard And Jan Mayen Islands', 'Swaziland', 'Sweden',
+   246→      'Switzerland', 'Syrian Arab Republic', 'Tajikistan', 'Thailand', 'Togo', 'Tokelau',
+   247→      'Tonga', 'Trinidad And Tobago', 'United Arab Emirates', 'Tunisia', 'Turkey',
+   248→      'Turkmenistan', 'Turks And Caicos Islands', 'Tuvalu', 'Uganda', 'Ukraine',
+   249→      'Macedonia', 'Egypt', 'United Kingdom', 'Guernsey', 'Jersey', 'Isle Of Man',
+   250→      'Tanzania', 'United States', 'Us Virgin Islands', 'Burkina Faso', 'Uruguay',
+   251→      'Uzbekistan', 'Venezuela', 'Wallis And Futuna Islands', 'Samoa', 'Yemen', 'Zambia',
+   252→      'Asia', 'Europe'
+   253→    ],
+   254→    caption: 'NSFW AI Chat',
+   255→    captionEs: 'Chat IA +18',
+   256→    imageUrl: '/banners/lusy-ai.png'
+   257→  },
+   258→  {
+   259→    slug: 'lovel-ai',
+   260→    title: 'Lovel AI',
+   261→    category: 'AI Companions',
+   262→    description: 'Multimodal AI companion with creator customization',
+   263→    affiliateUrl: 'https://t.vlmai-1.com/413627/10423/0?aff_sub=SSUEN&source=X&aff_sub5=SF_006OG000004lmDN',
+   264→    countries: [],
+   265→    caption: 'AI Girlfriend Chatbot',
+   266→    captionEs: 'Chatbot de Novia IA',
+   267→    imageUrl: '/banners/lovel-ai.png'
+   268→  },
+   269→
+   270→  // ── Transgender ────────────────────────────────────────────────
+   271→  {
+   272→    slug: 'trans-smartlink',
+   273→    title: 'Trans Regional Website',
+   274→    category: 'Transgender',
+   275→    description: 'Trans dating multi-offer smartlink',
+   276→    affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   277→    countries: [
+   278→      'Australia', 'Austria', 'Belgium', 'Brazil', 'Canada', 'Chile', 'Taiwan',
+   279→      'Costa Rica', 'France', 'Germany', 'Ireland', 'Italy', 'Japan', 'Mexico',
+   280→      'Netherlands', 'New Zealand', 'Norway', 'Singapore', 'Spain', 'Switzerland',
+   281→      'Thailand', 'United Kingdom', 'United States'
+   282→    ],
+   283→    caption: 'Trans Dating Hub',
+   284→    captionEs: 'Centro de Citas Trans',
+   285→    imageUrl: '/banners/trans-smartlink.png'
+   286→  },
+   287→  {
+   288→    slug: 'x-trans-dating',
+   289→    title: 'X Trans Dating',
+   290→    category: 'Transgender',
+   291→    description: 'Trans dating smartlink',
+   292→    affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
+   293→    countries: [],
+   294→    caption: 'Trans Dating Links',
+   295→    captionEs: 'Enlaces de Citas Trans',
+   296→    imageUrl: '/banners/x-trans-dating.png'
+   297→  },
+   298→  {
+   299→    slug: 'jerkmate-trans',
+   300→    title: 'Jerkmate Trans',
+   301→    category: 'Transgender',
+   302→    description: 'Jerkmate transgender cam content',
+   303→    affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32491?aff_sub=TRANS&aff_sub2=JMATE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   304→    countries: [],
+   305→    caption: 'Live Adult Cams',
+   306→    captionEs: 'Cámaras Adultos en Vivo',
+   307→    imageUrl: '/banners/jerkmate-trans.png'
+   308→  },
+   309→  {
+   310→    slug: 'camsoda-trans',
+   311→    title: 'Camsoda Trans',
+   312→    category: 'Transgender',
+   313→    description: 'Camsoda transgender cams',
+   314→    affiliateUrl: 'https://t.camsk1.com/413627/5170/29363?aff_sub=TRANS&aff_sub2=CMSODA&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   315→    countries: [],
+   316→    caption: 'Trans Live Cams',
+   317→    captionEs: 'Cámaras Trans en Vivo',
+   318→    imageUrl: '/banners/camsoda-trans.png'
+   319→  },
+   320→  {
+   321→    slug: 'cross-dresser',
+   322→    title: 'Cross Dresser Smart Landing',
+   323→    category: 'Transgender',
+   324→    description: 'Cross dresser smart landing',
+   325→    affiliateUrl: 'https://t.crdtg3.com/413627/7090?aff_sub=REVIEWF&aff_sub2=REVIEWX&source=X&aff_sub5=SF_006OG000004lmDN',
+   326→    countries: [],
+   327→    caption: 'Cross Dresser Dating',
+   328→    captionEs: 'Citas Cross Dresser',
+   329→    imageUrl: '/banners/cross-dresser.png'
+   330→  },
+   331→
+   332→  // ── Gay ────────────────────────────────────────────────────────
+   333→  {
+   334→    slug: 'gay-dating-smartlink',
+   335→    title: 'Gay Dating Regional Website',
+   336→    category: 'Gay',
+   337→    description: 'Gay dating multi offer smartlink',
+   338→    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
+   339→    countries: [],
+   340→    caption: 'Gay Dating Hub',
+   341→    captionEs: 'Centro de Citas Gay',
+   342→    imageUrl: '/banners/gay-dating-smartlink.png'
+   343→  },
+   344→  {
+   345→    slug: 'gay-bloom',
+   346→    title: 'Gay Bloom',
+   347→    category: 'Gay',
+   348→    description: 'Gay dating and connection',
+   349→    affiliateUrl: 'https://t.crdtg3.com/413627/10378/0?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
+   350→    countries: [],
+   351→    caption: 'Gay Dating App',
+   352→    captionEs: 'App de Citas Gay',
+   353→    imageUrl: '/banners/gay-bloom.png'
+   354→  },
+   355→  {
+   356→    slug: 'filf-gay',
+   357→    title: 'FILF Gay Regional Website',
+   358→    category: 'Gay',
+   359→    description: 'FILF gay smartlink',
+   360→    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   361→    countries: [],
+   362→    caption: 'Gay Mature Dating',
+   363→    captionEs: 'Citas Gay Maduras',
+   364→    imageUrl: '/banners/filf-gay.png'
+   365→  },
+   366→
+   367→  // ── Dating ─────────────────────────────────────────────────────
+   368→  {
+   369→    slug: 'vicky-milan',
+   370→    title: 'Victoria Milan',
+   371→    category: 'Dating',
+   372→    description: 'Discreet dating experience',
+   373→    affiliateUrl: 'https://t.crdtg3.com/413627/4593/40617?aff_sub=DATING&aff_sub2=VICMILAN&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   374→    countries: [],
+   375→    caption: 'Discreet Affair Dating',
+   376→    captionEs: 'Citas Discretas',
+   377→    imageUrl: '/banners/vicky-milan.png'
+   378→  },
+   379→  {
+   380→    slug: 'instabang-latinas',
+   381→    title: 'Instabang Latinas',
+   382→    category: 'Dating',
+   383→    description: 'Casual hookups, Latina-focused',
+   384→    affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   385→    countries: [],
+   386→    caption: 'Latina Casual Hookups',
+   387→    captionEs: 'Encuentros Casuales Latinas',
+   388→    imageUrl: '/banners/instabang-latinas.png'
+   389→  },
+   390→  {
+   391→    slug: 'vecina-pasionales',
+   392→    title: 'Vecina Pasionales',
+   393→    category: 'Dating',
+   394→    description: 'Quality-focused dating experience',
+   395→    affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   396→    countries: [],
+   397→    caption: 'Passionate Local Dating',
+   398→    captionEs: 'Citas Locales Apasionadas',
+   399→    imageUrl: '/banners/vecina-pasionales.png'
+   400→  },
+   401→  {
+   402→    slug: 'hometown-flirt',
+   403→    title: 'Hometown Flirt',
+   404→    category: 'Dating',
+   405→    description: 'Local flirting and dating',
+   406→    affiliateUrl: 'https://t.crdtg3.com/413627/8227?aff_sub=DATING&aff_sub2=HTWNFLRT&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   407→    countries: [],
+   408→    caption: 'Local Flirt Dating',
+   409→    captionEs: 'Citas Coqueteo Local',
+   410→    imageUrl: '/banners/hometown-flirt.png'
+   411→  },
+   412→  {
+   413→    slug: 'litlatinz',
+   414→    title: 'LitLatinz',
+   415→    category: 'Dating',
+   416→    description: 'Casual dating, Latino community',
+   417→    affiliateUrl: 'https://t.crdtg3.com/413627/8532/0?aff_sub=GPRIV&aff_sub2=SSUEN&aff_sub3=PPUEN&aff_sub4=LCHIB&source=TT&aff_sub5=SF_006OG000004lmDN',
+   418→    countries: [],
+   419→    caption: 'Latino Casual Dating',
+   420→    captionEs: 'Citas Casuales Latinas',
+   421→    imageUrl: '/banners/litlatinz.png'
+   422→  },
+   423→  {
+   424→    slug: 'lustfriend',
+   425→    title: 'LustFriend',
+   426→    category: 'Dating',
+   427→    description: 'Multi-tier casual dating',
+   428→    affiliateUrl: 'https://t.crdtg3.com/413627/9328/0?aff_sub=SSUEN&aff_sub2=GPRIV&aff_sub3=SNOCH&aff_sub4=PPUEN&source=TT&aff_sub5=SF_006OG000004lmDN',
+   429→    countries: [],
+   430→    caption: 'Discreet FWB Dating',
+   431→    captionEs: 'Citas Amigos con Derechos',
+   432→    imageUrl: '/banners/lustfriend.png'
+   433→  },
+   434→  {
+   435→    slug: 'date-player-two',
+   436→    title: 'Date Player Two',
+   437→    category: 'Dating',
+   438→    description: 'Dating platform for gamers',
+   439→    affiliateUrl: 'https://t.crdtg3.com/413627/9702/0?aff_sub=CARRD2&aff_sub2=NICVHE+PG&source=TT&aff_sub5=SF_006OG000004lmDN',
+   440→    countries: [],
+   441→    caption: 'Gamer Dating Platform',
+   442→    captionEs: 'Plataforma de Citas Gamers',
+   443→    imageUrl: '/banners/date-player-two.png'
+   444→  },
+   445→  {
+   446→    slug: 'suenos-privados-dating',
+   447→    title: 'Suenos Privados Dating',
+   448→    category: 'Dating',
+   449→    description: 'Dating smartlink',
+   450→    affiliateUrl: 'https://t.mbjms.com/413627/3785/0?target=nativeads&aff_sub5=SF_006OG000004lmDN',
+   451→    countries: [],
+   452→    caption: 'Private Dating Links',
+   453→    captionEs: 'Enlaces de Citas Privadas',
+   454→    imageUrl: '/banners/suenos-privados-dating.png'
+   455→  },
+   456→  {
+   457→    slug: 'ways-to-meet',
+   458→    title: 'Ways to Meet',
+   459→    category: 'Dating',
+   460→    description: 'Ways to meet new connections',
+   461→    affiliateUrl: 'https://t.crdtg2.com/413627/10091/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   462→    countries: [],
+   463→    caption: 'Meet New People',
+   464→    captionEs: 'Conoce Gente Nueva',
+   465→    imageUrl: '/banners/ways-to-meet.png'
+   466→  },
+   467→
+   468→  // ── Unique Offers ──────────────────────────────────────────────
+   469→  {
+   470→    slug: 'xgamehub',
+   471→    title: 'XGameHub',
+   472→    category: 'Unique Offers',
+   473→    description: 'High-quality adult interactive story games',
+   474→    affiliateUrl: 'https://t.anadw.link/413627/10421/0?aff_sub=SUENOS&aff_sub2=PRIVADOS&aff_sub3=NOCHES&source=X&aff_sub5=SF_006OG000004lmDN',
+   475→    countries: [],
+   476→    caption: 'Interactive Porn Games',
+   477→    captionEs: 'Juegos Porno Interactivos',
+   478→    imageUrl: '/banners/xgamehub.png'
+   479→  },
+   480→  {
+   481→    slug: 'smoke-and-poke',
+   482→    title: 'Smoke and Poke',
+   483→    category: 'Unique Offers',
+   484→    description: '420-friendly dating app',
+   485→    affiliateUrl: 'https://t.crdtg3.com/413627/8228/0?aff_sub=SUENOS&aff_sub2=SNOCHES&aff_sub3=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
+   486→    countries: [],
+   487→    caption: '420 Friendly Dating',
+   488→    captionEs: 'Citas 420 Friendly',
+   489→    imageUrl: '/banners/smoke-and-poke.png'
+   490→  },
+   491→  {
+   492→    slug: 'sex-messenger',
+   493→    title: 'Sex Messenger',
+   494→    category: 'Unique Offers',
+   495→    description: 'Uncensored chat platform',
+   496→    affiliateUrl: 'https://t.crdtg3.com/413627/7234?aff_sub=SSuenos_Smrtlnk&source=X&aff_sub5=SF_006OG000004lmDN',
+   497→    countries: [],
+   498→    caption: 'Uncensored Adult Chat',
+   499→    captionEs: 'Chat Adulto Sin Censura',
+   500→    imageUrl: '/banners/sex-messenger.png'
+   501→  },
+   502→  {
+   503→    slug: 'milan',
+   504→    title: 'Victoria Milan',
+   505→    category: 'Unique Offers',
+   506→    description: 'Milan dating experience',
+   507→    affiliateUrl: 'https://t.crdtg2.com/413627/4593/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   508→    countries: [],
+   509→    caption: 'Discreet Affair Dating',
+   510→    captionEs: 'Citas Discretas',
+   511→    imageUrl: '/banners/milan.png'
+   512→  },
+   513→
+   514→  // ── Fan Sites ──────────────────────────────────────────────────
+   515→  {
+   516→    slug: 'mym-fans',
+   517→    title: 'MYM (Danika Mori)',
+   518→    category: 'Fan Sites',
+   519→    description: 'Premium creator platform, France',
+   520→    affiliateUrl: 'https://t.acust-9.com/413627/9304/36088?aff_sub=FANSTE&aff_sub2=DNKAMRIVIP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   521→    countries: [],
+   522→    caption: 'Premium Creator Content',
+   523→    captionEs: 'Contenido Premium de Creadores',
+   524→    imageUrl: '/banners/mym-fans.png'
+   525→  },
+   526→  {
+   527→    slug: 'mila-lerue',
+   528→    title: 'Mila LeRue',
+   529→    category: 'Fan Sites',
+   530→    description: 'Creator subscriptions',
+   531→    affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   532→    countries: [],
+   533→    caption: 'Subscribe To Mila',
+   534→    captionEs: 'Suscríbete a Mila',
+   535→    imageUrl: '/banners/mila-lerue.png'
+   536→  },
+   537→  {
+   538→    slug: 'amber-santori',
+   539→    title: 'Amber Santori',
+   540→    category: 'Fan Sites',
+   541→    description: 'Fan site subscription',
+   542→    affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   543→    countries: [],
+   544→    caption: 'Subscribe To Amber',
+   545→    captionEs: 'Suscríbete a Amber',
+   546→    imageUrl: '/banners/amber-santori.png'
+   547→  },
+   548→  {
+   549→    slug: 'lina-rose',
+   550→    title: 'Lina Rose',
+   551→    category: 'Fan Sites',
+   552→    description: 'Creator subscriptions, Lina Rose',
+   553→    affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
+   554→    countries: [],
+   555→    caption: 'Subscribe To Lina',
+   556→    captionEs: 'Suscríbete a Lina',
+   557→    imageUrl: '/banners/lina-rose.png'
+   558→  },
+   559→
+   560→  // ── Pay Sites ──────────────────────────────────────────────────
+   561→  {
+   562→    slug: 'sext-panther',
+   563→    title: 'SextPanther Latina',
+   564→    category: 'Pay Sites',
+   565→    description: 'Sext Panther content platform',
+   566→    affiliateUrl: 'https://t.acust-9.com/413627/9927/38131?aff_sub=PAY&aff_sub2=LATINA&aff_sub3=SEXTPANTHR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   567→    countries: [],
+   568→    caption: 'Latina Sexting',
+   569→    captionEs: 'Sexting Latina',
+   570→    imageUrl: '/banners/sext-panther.png'
+   571→  },
+   572→  {
+   573→    slug: 'naked-news',
+   574→    title: 'Naked News',
+   575→    category: 'Pay Sites',
+   576→    description: 'Naked News platform',
+   577→    affiliateUrl: 'https://t.acam-2.com/413627/10363/0?aff_sub=PAY&aff_sub2=OPTILP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   578→    countries: [],
+   579→    caption: 'Nude News Broadcasts',
+   580→    captionEs: 'Noticias al Desnudo',
+   581→    imageUrl: '/banners/naked-news.png'
+   582→  },
+   583→  {
+   584→    slug: 'vixenplus',
+   585→    title: 'VixenPlus',
+   586→    category: 'Pay Sites',
+   587→    description: 'Full Vixen Media Group access',
+   588→    affiliateUrl: 'https://t.bbwafx.com/413627/10405/0?aff_sub=SSUEN&aff_sub2=SINNOCTUN&source=X&aff_sub5=SF_006OG000004lmDN',
+   589→    countries: [],
+   590→    caption: 'Premium Studio Access',
+   591→    captionEs: 'Acceso a Estudios Premium',
+   592→    imageUrl: '/banners/vixenplus.png'
+   593→  },
+   594→
+   595→  // ── Games ──────────────────────────────────────────────────────
+   596→  {
+   597→    slug: 'manga-rpg',
+   598→    title: 'Manga RPG',
+   599→    category: 'Games',
+   600→    description: 'Manga RPG game',
+   601→    affiliateUrl: 'https://t.acust-9.com/413627/6621?aff_sub=GAMES&aff_sub2=MNGRPG&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   602→    countries: [],
+   603→    caption: 'Manga Adult RPG',
+   604→    captionEs: 'RPG Adulto Manga',
+   605→    imageUrl: '/banners/manga-rpg.png'
+   606→  },
+   607→  {
+   608→    slug: 'comix-harem',
+   609→    title: 'Comix Harem',
+   610→    category: 'Games',
+   611→    description: 'Comix Harem game',
+   612→    affiliateUrl: 'https://t.aagm.link/413627/7930/27132?aff_sub=GAMES&aff_sub2=CMXHRM&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   613→    countries: [],
+   614→    caption: 'Comic Harem Game',
+   615→    captionEs: 'Juego de Harem Comic',
+   616→    imageUrl: '/banners/comix-harem.png'
+   617→  },
+   618→  {
+   619→    slug: 'tran-game',
+   620→    title: 'Trans Pornstar Harem',
+   621→    category: 'Games',
+   622→    description: 'Trans-themed game',
+   623→    affiliateUrl: 'https://t.anadw.link/413627/8663/35415?aff_sub=GolfoPrivadoTranGame&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   624→    countries: [],
+   625→    caption: 'Trans Harem Game',
+   626→    captionEs: 'Juego de Harem Trans',
+   627→    imageUrl: '/banners/tran-game.png'
+   628→  },
+   629→
+   630→  // ── Live Cams ──────────────────────────────────────────────────
+   631→  {
+   632→    slug: 'jerkmate-live',
+   633→    title: 'Jerkmate',
+   634→    category: 'Live Cams',
+   635→    description: 'Jerkmate live cams',
+   636→    affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32514?aff_sub=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   637→    countries: [],
+   638→    caption: 'Live Adult Cams',
+   639→    captionEs: 'Cámaras Adultos en Vivo',
+   640→    imageUrl: '/banners/jerkmate-live.png'
+   641→  },
+   642→  {
+   643→    slug: 'camirada',
+   644→    title: 'Camirada',
+   645→    category: 'Live Cams',
+   646→    description: 'Live cam revenue share platform',
+   647→    affiliateUrl: 'https://t.acrsmartcam.com/413627/9776/38186?aff_sub=PerlaPuente30R&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+   648→    countries: [],
+   649→    caption: 'Live Webcam Shows',
+   650→    captionEs: 'Shows de Webcam en Vivo',
+   651→    imageUrl: '/banners/camirada.png'
+   652→  },
+   653→  {
+   654→    slug: 'jerkmate-pps',
+   655→    title: 'Jerkmate',
+   656→    category: 'Live Cams',
+   657→    description: 'Jerkmate live cams, PPS',
+   658→    affiliateUrl: 'https://t.ajrkmx1.com/413627/8780/0?aff_sub=X_SP_PPS&source=xTwitter&aff_sub5=SF_006OG000004lmDN',
+   659→    countries: [],
+   660→    caption: 'Live Adult Cams',
+   661→    captionEs: 'Cámaras Adultos en Vivo',
+   662→    imageUrl: '/banners/jerkmate-pps.png'
+   663→  },
+   664→  {
+   665→    slug: 'imlive',
+   666→    title: 'ImLive',
+   667→    category: 'Live Cams',
+   668→    description: '100+ niche live cam platform',
+   669→    affiliateUrl: 'https://t.camsk7.com/413627/2118/0?aff_sub=CAMS&aff_sub2=DFLTLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+   670→    countries: [],
+   671→    caption: 'Niche Live Cams',
+   672→    captionEs: 'Cámaras en Vivo de Nicho',
+   673→    imageUrl: '/banners/imlive.png'
+   674→  },
+   675→  {
+   676→    slug: 'sweepsex-cams',
+   677→    title: 'SweepSex',
+   678→    category: 'Live Cams',
+   679→    description: 'Chaturbate white-label cam platform',
+   680→    affiliateUrl: 'https://t.acrsmartcam.com/413627/7758/40246?aff_sub=SSUEN&aff_sub2=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
+   681→    countries: [],
+   682→    caption: 'Live Couple Cams',
+   683→    captionEs: 'Cámaras de Parejas en Vivo',
+   684→    imageUrl: '/banners/sweepsex-cams.png'
+   685→  },
+   686→];
