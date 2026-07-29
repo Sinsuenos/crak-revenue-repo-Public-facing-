@@ -27,7 +27,7 @@ export default function AgeGateContent() {
 
       <div style={{
         position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none',
-        background: 'linear-gradient(145deg, rgba(15,15,26,0.92) 0%, rgba(26,16,40,0.88) 40%, rgba(15,15,26,0.94) 100%)',
+        background: 'linear-gradient(145deg, rgba(15,15,26,0.70) 0%, rgba(26,16,40,0.65) 40%, rgba(15,15,26,0.72) 100%)',
       }} />
       <div style={{
         position: 'fixed', width: '400px', height: '400px', borderRadius: '50%',

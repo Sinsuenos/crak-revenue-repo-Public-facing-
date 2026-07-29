@@ -11,6 +11,142 @@ export type Offer = {
 };
 
 export const offers: Offer[] = [
+  // ── Dating ─────────────────────────────────────────────────────
+  {
+    slug: 'vicky-milan',
+    title: 'Victoria Milan',
+    category: 'Dating',
+    description: 'Discreet dating experience',
+    affiliateUrl: 'https://t.crdtg3.com/413627/4593/40617?aff_sub=DATING&aff_sub2=VICMILAN&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Discreet Affair Dating',
+    captionEs: 'Citas Discretas',
+    imageUrl: '/banners/vicky-milan.png'
+  },
+  {
+    slug: 'instabang-latinas',
+    title: 'Instabang Latinas',
+    category: 'Dating',
+    description: 'Casual hookups, Latina-focused',
+    affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Latina Casual Hookups',
+    captionEs: 'Encuentros Casuales Latinas',
+    imageUrl: '/banners/instabang-latinas.png'
+  },
+  {
+    slug: 'vecina-pasionales',
+    title: 'Vecina Pasionales',
+    category: 'Dating',
+    description: 'Quality-focused dating experience',
+    affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Passionate Local Dating',
+    captionEs: 'Citas Locales Apasionadas',
+    imageUrl: '/banners/vecina-pasionales.png'
+  },
+  {
+    slug: 'hometown-flirt',
+    title: 'Hometown Flirt',
+    category: 'Dating',
+    description: 'Local flirting and dating',
+    affiliateUrl: 'https://t.crdtg3.com/413627/8227?aff_sub=DATING&aff_sub2=HTWNFLRT&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Local Flirt Dating',
+    captionEs: 'Citas Coqueteo Local',
+    imageUrl: '/banners/hometown-flirt.png'
+  },
+  {
+    slug: 'litlatinz',
+    title: 'LitLatinz',
+    category: 'Dating',
+    description: 'Casual dating, Latino community',
+    affiliateUrl: 'https://t.crdtg3.com/413627/8532/0?aff_sub=GPRIV&aff_sub2=SSUEN&aff_sub3=PPUEN&aff_sub4=LCHIB&source=TT&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Latino Casual Dating',
+    captionEs: 'Citas Casuales Latinas',
+    imageUrl: '/banners/litlatinz.png'
+  },
+  {
+    slug: 'lustfriend',
+    title: 'LustFriend',
+    category: 'Dating',
+    description: 'Multi-tier casual dating',
+    affiliateUrl: 'https://t.crdtg3.com/413627/9328/0?aff_sub=SSUEN&aff_sub2=GPRIV&aff_sub3=SNOCH&aff_sub4=PPUEN&source=TT&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Discreet FWB Dating',
+    captionEs: 'Citas Amigos con Derechos',
+    imageUrl: '/banners/lustfriend.png'
+  },
+  {
+    slug: 'ways-to-meet',
+    title: 'Ways to Meet',
+    category: 'Dating',
+    description: 'Ways to meet new connections',
+    affiliateUrl: 'https://t.crdtg2.com/413627/10091/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Meet New People',
+    captionEs: 'Conoce Gente Nueva',
+    imageUrl: '/banners/ways-to-meet.png'
+  },
+
+  // ── Live Cams ──────────────────────────────────────────────────
+  {
+    slug: 'jerkmate-live',
+    title: 'Jerkmate',
+    category: 'Live Cams',
+    description: 'Jerkmate live cams',
+    affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32514?aff_sub=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Live Adult Cams',
+    captionEs: 'Cámaras Adultos en Vivo',
+    imageUrl: '/banners/jerkmate-live.png'
+  },
+  {
+    slug: 'camirada',
+    title: 'Camirada',
+    category: 'Live Cams',
+    description: 'Live cam revenue share platform',
+    affiliateUrl: 'https://t.acrsmartcam.com/413627/9776/38186?aff_sub=PerlaPuente30R&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Live Webcam Shows',
+    captionEs: 'Shows de Webcam en Vivo',
+    imageUrl: '/banners/camirada.png'
+  },
+  {
+    slug: 'jerkmate-pps',
+    title: 'Jerkmate',
+    category: 'Live Cams',
+    description: 'Jerkmate live cams, PPS',
+    affiliateUrl: 'https://t.ajrkmx1.com/413627/8780/0?aff_sub=X_SP_PPS&source=xTwitter&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Live Adult Cams',
+    captionEs: 'Cámaras Adultos en Vivo',
+    imageUrl: '/banners/jerkmate-pps.png'
+  },
+  {
+    slug: 'imlive',
+    title: 'ImLive',
+    category: 'Live Cams',
+    description: '100+ niche live cam platform',
+    affiliateUrl: 'https://t.camsk7.com/413627/2118/0?aff_sub=CAMS&aff_sub2=DFLTLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Niche Live Cams',
+    captionEs: 'Cámaras en Vivo de Nicho',
+    imageUrl: '/banners/imlive.png'
+  },
+  {
+    slug: 'sweepsex-cams',
+    title: 'SweepSex',
+    category: 'Live Cams',
+    description: 'Chaturbate white-label cam platform',
+    affiliateUrl: 'https://t.acrsmartcam.com/413627/7758/40246?aff_sub=SSUEN&aff_sub2=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Live Couple Cams',
+    captionEs: 'Cámaras de Parejas en Vivo',
+    imageUrl: '/banners/sweepsex-cams.png'
+  },
+
   // ── AI Companions ──────────────────────────────────────────────
   {
     slug: 'ohchat',
@@ -164,17 +300,6 @@ export const offers: Offer[] = [
     imageUrl: '/banners/dondi-gf-pc.png'
   },
   {
-    slug: 'dondi-gf-mobile',
-    title: 'Dondi AI Girlfriend',
-    category: 'AI Companions',
-    description: 'Custom AI girlfriend builder, mobile',
-    affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Create AI Companion',
-    captionEs: 'Crea tu Compañero IA',
-    imageUrl: '/banners/dondi-gf-mobile.png'
-  },
-  {
     slug: 'get-harder',
     title: 'Get Harder AI',
     category: 'AI Companions',
@@ -267,6 +392,157 @@ export const offers: Offer[] = [
     imageUrl: '/banners/lovel-ai.png'
   },
 
+  // ── Fansites ──────────────────────────────────────────────────
+  {
+    slug: 'mym-fans',
+    title: 'MYM (Danika Mori)',
+    category: 'Fansites',
+    description: 'Premium creator platform, France',
+    affiliateUrl: 'https://t.acust-9.com/413627/9304/36088?aff_sub=FANSTE&aff_sub2=DNKAMRIVIP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Premium Creator Content',
+    captionEs: 'Contenido Premium de Creadores',
+    imageUrl: '/banners/mym-fans.png'
+  },
+  {
+    slug: 'mila-lerue',
+    title: 'Mila LeRue',
+    category: 'Fansites',
+    description: 'Creator subscriptions',
+    affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Subscribe To Mila',
+    captionEs: 'Suscríbete a Mila',
+    imageUrl: '/banners/mila-lerue.png'
+  },
+  {
+    slug: 'amber-santori',
+    title: 'Amber Santori',
+    category: 'Fansites',
+    description: 'Fan site subscription',
+    affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Subscribe To Amber',
+    captionEs: 'Suscríbete a Amber',
+    imageUrl: '/banners/amber-santori.png'
+  },
+  {
+    slug: 'lina-rose',
+    title: 'Lina Rose',
+    category: 'Fansites',
+    description: 'Creator subscriptions, Lina Rose',
+    affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Subscribe To Lina',
+    captionEs: 'Suscríbete a Lina',
+    imageUrl: '/banners/lina-rose.png'
+  },
+
+  // ── Paysites ──────────────────────────────────────────────────
+  {
+    slug: 'sext-panther',
+    title: 'SextPanther Latina',
+    category: 'Paysites',
+    description: 'Sext Panther content platform',
+    affiliateUrl: 'https://t.acust-9.com/413627/9927/38131?aff_sub=PAY&aff_sub2=LATINA&aff_sub3=SEXTPANTHR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Latina Sexting',
+    captionEs: 'Sexting Latina',
+    imageUrl: '/banners/sext-panther.png'
+  },
+  {
+    slug: 'naked-news',
+    title: 'Naked News',
+    category: 'Paysites',
+    description: 'Naked News platform',
+    affiliateUrl: 'https://t.acam-2.com/413627/10363/0?aff_sub=PAY&aff_sub2=OPTILP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Nude News Broadcasts',
+    captionEs: 'Noticias al Desnudo',
+    imageUrl: '/banners/naked-news.png'
+  },
+  {
+    slug: 'vixenplus',
+    title: 'VixenPlus',
+    category: 'Paysites',
+    description: 'Full Vixen Media Group access',
+    affiliateUrl: 'https://t.bbwafx.com/413627/10405/0?aff_sub=SSUEN&aff_sub2=SINNOCTUN&source=X&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Premium Studio Access',
+    captionEs: 'Acceso a Estudios Premium',
+    imageUrl: '/banners/vixenplus.png'
+  },
+
+  // ── Gay ────────────────────────────────────────────────────────
+  {
+    slug: 'gay-dating-smartlink',
+    title: 'Gay Dating Regional Website',
+    category: 'Gay',
+    description: 'Gay dating multi offer smartlink',
+    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gay Dating Hub',
+    captionEs: 'Centro de Citas Gay',
+    imageUrl: '/banners/gay-dating-smartlink.png'
+  },
+  {
+    slug: 'gay-bloom',
+    title: 'Gay Bloom',
+    category: 'Gay',
+    description: 'Gay dating and connection',
+    affiliateUrl: 'https://t.crdtg3.com/413627/10378/0?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gay Dating App',
+    captionEs: 'App de Citas Gay',
+    imageUrl: '/banners/gay-bloom.png'
+  },
+  {
+    slug: 'filf-gay',
+    title: 'FILF Gay Regional Website',
+    category: 'Gay',
+    description: 'FILF gay smartlink',
+    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gay Mature Dating',
+    captionEs: 'Citas Gay Maduras',
+    imageUrl: '/banners/filf-gay.png'
+  },
+
+  // ── Games ──────────────────────────────────────────────────────
+  {
+    slug: 'manga-rpg',
+    title: 'Manga RPG',
+    category: 'Games',
+    description: 'Manga RPG game',
+    affiliateUrl: 'https://t.acust-9.com/413627/6621?aff_sub=GAMES&aff_sub2=MNGRPG&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Manga Adult RPG',
+    captionEs: 'RPG Adulto Manga',
+    imageUrl: '/banners/manga-rpg.png'
+  },
+  {
+    slug: 'comix-harem',
+    title: 'Comix Harem',
+    category: 'Games',
+    description: 'Comix Harem game',
+    affiliateUrl: 'https://t.aagm.link/413627/7930/27132?aff_sub=GAMES&aff_sub2=CMXHRM&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Comic Harem Game',
+    captionEs: 'Juego de Harem Comic',
+    imageUrl: '/banners/comix-harem.png'
+  },
+  {
+    slug: 'tran-game',
+    title: 'Trans Pornstar Harem',
+    category: 'Games',
+    description: 'Trans-themed game',
+    affiliateUrl: 'https://t.anadw.link/413627/8663/35415?aff_sub=GolfoPrivadoTranGame&source=TikTok&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Trans Harem Game',
+    captionEs: 'Juego de Harem Trans',
+    imageUrl: '/banners/tran-game.png'
+  },
+
   // ── Transgender ────────────────────────────────────────────────
   {
     slug: 'trans-smartlink',
@@ -329,147 +605,11 @@ export const offers: Offer[] = [
     imageUrl: '/banners/cross-dresser.png'
   },
 
-  // ── Gay ────────────────────────────────────────────────────────
-  {
-    slug: 'gay-dating-smartlink',
-    title: 'Gay Dating Regional Website',
-    category: 'Gay',
-    description: 'Gay dating multi offer smartlink',
-    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Gay Dating Hub',
-    captionEs: 'Centro de Citas Gay',
-    imageUrl: '/banners/gay-dating-smartlink.png'
-  },
-  {
-    slug: 'gay-bloom',
-    title: 'Gay Bloom',
-    category: 'Gay',
-    description: 'Gay dating and connection',
-    affiliateUrl: 'https://t.crdtg3.com/413627/10378/0?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Gay Dating App',
-    captionEs: 'App de Citas Gay',
-    imageUrl: '/banners/gay-bloom.png'
-  },
-  {
-    slug: 'filf-gay',
-    title: 'FILF Gay Regional Website',
-    category: 'Gay',
-    description: 'FILF gay smartlink',
-    affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Gay Mature Dating',
-    captionEs: 'Citas Gay Maduras',
-    imageUrl: '/banners/filf-gay.png'
-  },
-
-  // ── Dating ─────────────────────────────────────────────────────
-  {
-    slug: 'vicky-milan',
-    title: 'Victoria Milan',
-    category: 'Dating',
-    description: 'Discreet dating experience',
-    affiliateUrl: 'https://t.crdtg3.com/413627/4593/40617?aff_sub=DATING&aff_sub2=VICMILAN&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Discreet Affair Dating',
-    captionEs: 'Citas Discretas',
-    imageUrl: '/banners/vicky-milan.png'
-  },
-  {
-    slug: 'instabang-latinas',
-    title: 'Instabang Latinas',
-    category: 'Dating',
-    description: 'Casual hookups, Latina-focused',
-    affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Latina Casual Hookups',
-    captionEs: 'Encuentros Casuales Latinas',
-    imageUrl: '/banners/instabang-latinas.png'
-  },
-  {
-    slug: 'vecina-pasionales',
-    title: 'Vecina Pasionales',
-    category: 'Dating',
-    description: 'Quality-focused dating experience',
-    affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Passionate Local Dating',
-    captionEs: 'Citas Locales Apasionadas',
-    imageUrl: '/banners/vecina-pasionales.png'
-  },
-  {
-    slug: 'hometown-flirt',
-    title: 'Hometown Flirt',
-    category: 'Dating',
-    description: 'Local flirting and dating',
-    affiliateUrl: 'https://t.crdtg3.com/413627/8227?aff_sub=DATING&aff_sub2=HTWNFLRT&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Local Flirt Dating',
-    captionEs: 'Citas Coqueteo Local',
-    imageUrl: '/banners/hometown-flirt.png'
-  },
-  {
-    slug: 'litlatinz',
-    title: 'LitLatinz',
-    category: 'Dating',
-    description: 'Casual dating, Latino community',
-    affiliateUrl: 'https://t.crdtg3.com/413627/8532/0?aff_sub=GPRIV&aff_sub2=SSUEN&aff_sub3=PPUEN&aff_sub4=LCHIB&source=TT&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Latino Casual Dating',
-    captionEs: 'Citas Casuales Latinas',
-    imageUrl: '/banners/litlatinz.png'
-  },
-  {
-    slug: 'lustfriend',
-    title: 'LustFriend',
-    category: 'Dating',
-    description: 'Multi-tier casual dating',
-    affiliateUrl: 'https://t.crdtg3.com/413627/9328/0?aff_sub=SSUEN&aff_sub2=GPRIV&aff_sub3=SNOCH&aff_sub4=PPUEN&source=TT&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Discreet FWB Dating',
-    captionEs: 'Citas Amigos con Derechos',
-    imageUrl: '/banners/lustfriend.png'
-  },
-  {
-    slug: 'date-player-two',
-    title: 'Date Player Two',
-    category: 'Dating',
-    description: 'Dating platform for gamers',
-    affiliateUrl: 'https://t.crdtg3.com/413627/9702/0?aff_sub=CARRD2&aff_sub2=NICVHE+PG&source=TT&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Gamer Dating Platform',
-    captionEs: 'Plataforma de Citas Gamers',
-    imageUrl: '/banners/date-player-two.png'
-  },
-  {
-    slug: 'suenos-privados-dating',
-    title: 'Suenos Privados Dating',
-    category: 'Dating',
-    description: 'Dating smartlink',
-    affiliateUrl: 'https://t.mbjms.com/413627/3785/0?target=nativeads&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Private Dating Links',
-    captionEs: 'Enlaces de Citas Privadas',
-    imageUrl: '/banners/suenos-privados-dating.png'
-  },
-  {
-    slug: 'ways-to-meet',
-    title: 'Ways to Meet',
-    category: 'Dating',
-    description: 'Ways to meet new connections',
-    affiliateUrl: 'https://t.crdtg2.com/413627/10091/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Meet New People',
-    captionEs: 'Conoce Gente Nueva',
-    imageUrl: '/banners/ways-to-meet.png'
-  },
-
-  // ── Unique Offers ──────────────────────────────────────────────
+  // ── Special Offers ──────────────────────────────────────────────
   {
     slug: 'xgamehub',
     title: 'XGameHub',
-    category: 'Unique Offers',
+    category: 'Special Offers',
     description: 'High-quality adult interactive story games',
     affiliateUrl: 'https://t.anadw.link/413627/10421/0?aff_sub=SUENOS&aff_sub2=PRIVADOS&aff_sub3=NOCHES&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
@@ -480,7 +620,7 @@ export const offers: Offer[] = [
   {
     slug: 'smoke-and-poke',
     title: 'Smoke and Poke',
-    category: 'Unique Offers',
+    category: 'Special Offers',
     description: '420-friendly dating app',
     affiliateUrl: 'https://t.crdtg3.com/413627/8228/0?aff_sub=SUENOS&aff_sub2=SNOCHES&aff_sub3=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
@@ -491,196 +631,12 @@ export const offers: Offer[] = [
   {
     slug: 'sex-messenger',
     title: 'Sex Messenger',
-    category: 'Unique Offers',
+    category: 'Special Offers',
     description: 'Uncensored chat platform',
     affiliateUrl: 'https://t.crdtg3.com/413627/7234?aff_sub=SSuenos_Smrtlnk&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Uncensored Adult Chat',
     captionEs: 'Chat Adulto Sin Censura',
     imageUrl: '/banners/sex-messenger.png'
-  },
-  {
-    slug: 'milan',
-    title: 'Victoria Milan',
-    category: 'Unique Offers',
-    description: 'Milan dating experience',
-    affiliateUrl: 'https://t.crdtg2.com/413627/4593/0?aff_sub=Sinaloa+Suenos&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Discreet Affair Dating',
-    captionEs: 'Citas Discretas',
-    imageUrl: '/banners/milan.png'
-  },
-
-  // ── Fan Sites ──────────────────────────────────────────────────
-  {
-    slug: 'mym-fans',
-    title: 'MYM (Danika Mori)',
-    category: 'Fan Sites',
-    description: 'Premium creator platform, France',
-    affiliateUrl: 'https://t.acust-9.com/413627/9304/36088?aff_sub=FANSTE&aff_sub2=DNKAMRIVIP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Premium Creator Content',
-    captionEs: 'Contenido Premium de Creadores',
-    imageUrl: '/banners/mym-fans.png'
-  },
-  {
-    slug: 'mila-lerue',
-    title: 'Mila LeRue',
-    category: 'Fan Sites',
-    description: 'Creator subscriptions',
-    affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Subscribe To Mila',
-    captionEs: 'Suscríbete a Mila',
-    imageUrl: '/banners/mila-lerue.png'
-  },
-  {
-    slug: 'amber-santori',
-    title: 'Amber Santori',
-    category: 'Fan Sites',
-    description: 'Fan site subscription',
-    affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Subscribe To Amber',
-    captionEs: 'Suscríbete a Amber',
-    imageUrl: '/banners/amber-santori.png'
-  },
-  {
-    slug: 'lina-rose',
-    title: 'Lina Rose',
-    category: 'Fan Sites',
-    description: 'Creator subscriptions, Lina Rose',
-    affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Subscribe To Lina',
-    captionEs: 'Suscríbete a Lina',
-    imageUrl: '/banners/lina-rose.png'
-  },
-
-  // ── Pay Sites ──────────────────────────────────────────────────
-  {
-    slug: 'sext-panther',
-    title: 'SextPanther Latina',
-    category: 'Pay Sites',
-    description: 'Sext Panther content platform',
-    affiliateUrl: 'https://t.acust-9.com/413627/9927/38131?aff_sub=PAY&aff_sub2=LATINA&aff_sub3=SEXTPANTHR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Latina Sexting',
-    captionEs: 'Sexting Latina',
-    imageUrl: '/banners/sext-panther.png'
-  },
-  {
-    slug: 'naked-news',
-    title: 'Naked News',
-    category: 'Pay Sites',
-    description: 'Naked News platform',
-    affiliateUrl: 'https://t.acam-2.com/413627/10363/0?aff_sub=PAY&aff_sub2=OPTILP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Nude News Broadcasts',
-    captionEs: 'Noticias al Desnudo',
-    imageUrl: '/banners/naked-news.png'
-  },
-  {
-    slug: 'vixenplus',
-    title: 'VixenPlus',
-    category: 'Pay Sites',
-    description: 'Full Vixen Media Group access',
-    affiliateUrl: 'https://t.bbwafx.com/413627/10405/0?aff_sub=SSUEN&aff_sub2=SINNOCTUN&source=X&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Premium Studio Access',
-    captionEs: 'Acceso a Estudios Premium',
-    imageUrl: '/banners/vixenplus.png'
-  },
-
-  // ── Games ──────────────────────────────────────────────────────
-  {
-    slug: 'manga-rpg',
-    title: 'Manga RPG',
-    category: 'Games',
-    description: 'Manga RPG game',
-    affiliateUrl: 'https://t.acust-9.com/413627/6621?aff_sub=GAMES&aff_sub2=MNGRPG&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Manga Adult RPG',
-    captionEs: 'RPG Adulto Manga',
-    imageUrl: '/banners/manga-rpg.png'
-  },
-  {
-    slug: 'comix-harem',
-    title: 'Comix Harem',
-    category: 'Games',
-    description: 'Comix Harem game',
-    affiliateUrl: 'https://t.aagm.link/413627/7930/27132?aff_sub=GAMES&aff_sub2=CMXHRM&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Comic Harem Game',
-    captionEs: 'Juego de Harem Comic',
-    imageUrl: '/banners/comix-harem.png'
-  },
-  {
-    slug: 'tran-game',
-    title: 'Trans Pornstar Harem',
-    category: 'Games',
-    description: 'Trans-themed game',
-    affiliateUrl: 'https://t.anadw.link/413627/8663/35415?aff_sub=GolfoPrivadoTranGame&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Trans Harem Game',
-    captionEs: 'Juego de Harem Trans',
-    imageUrl: '/banners/tran-game.png'
-  },
-
-  // ── Live Cams ──────────────────────────────────────────────────
-  {
-    slug: 'jerkmate-live',
-    title: 'Jerkmate',
-    category: 'Live Cams',
-    description: 'Jerkmate live cams',
-    affiliateUrl: 'https://t.mbjrkmms.com/413627/8780/32514?aff_sub=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Live Adult Cams',
-    captionEs: 'Cámaras Adultos en Vivo',
-    imageUrl: '/banners/jerkmate-live.png'
-  },
-  {
-    slug: 'camirada',
-    title: 'Camirada',
-    category: 'Live Cams',
-    description: 'Live cam revenue share platform',
-    affiliateUrl: 'https://t.acrsmartcam.com/413627/9776/38186?aff_sub=PerlaPuente30R&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Live Webcam Shows',
-    captionEs: 'Shows de Webcam en Vivo',
-    imageUrl: '/banners/camirada.png'
-  },
-  {
-    slug: 'jerkmate-pps',
-    title: 'Jerkmate',
-    category: 'Live Cams',
-    description: 'Jerkmate live cams, PPS',
-    affiliateUrl: 'https://t.ajrkmx1.com/413627/8780/0?aff_sub=X_SP_PPS&source=xTwitter&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Live Adult Cams',
-    captionEs: 'Cámaras Adultos en Vivo',
-    imageUrl: '/banners/jerkmate-pps.png'
-  },
-  {
-    slug: 'imlive',
-    title: 'ImLive',
-    category: 'Live Cams',
-    description: '100+ niche live cam platform',
-    affiliateUrl: 'https://t.camsk7.com/413627/2118/0?aff_sub=CAMS&aff_sub2=DFLTLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Niche Live Cams',
-    captionEs: 'Cámaras en Vivo de Nicho',
-    imageUrl: '/banners/imlive.png'
-  },
-  {
-    slug: 'sweepsex-cams',
-    title: 'SweepSex',
-    category: 'Live Cams',
-    description: 'Chaturbate white-label cam platform',
-    affiliateUrl: 'https://t.acrsmartcam.com/413627/7758/40246?aff_sub=SSUEN&aff_sub2=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'Live Couple Cams',
-    captionEs: 'Cámaras de Parejas en Vivo',
-    imageUrl: '/banners/sweepsex-cams.png'
   },
 ];

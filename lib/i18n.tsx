@@ -44,7 +44,7 @@ const ui: Record<Locale, Record<string, string>> = {
   },
   es: {
     'age.subtitle': 'Compa\u00f1eros IA \u00b7 Citas \u00b7 Trans \u00b7 C\u00e1maras \u00b7 Juegos \u00b7 Contenido de Fans',
-    'age.contact_prefix': '\u00bfBuscas algo espec\u00edfico? Cont\u00e1ctame.',
+    'age.contact_prefix': 'Buscas algo espec\u00edfico? Cont\u00e1ctame.',
     'age.enter': 'ENTRAR',
     'age.exit': 'SALIR',
     'cat.all': 'Todos',
@@ -70,12 +70,12 @@ const catLabels: Record<Locale, Record<string, string>> = {
     'ai-companions': 'AI Companions',
     'dating': 'Dating',
     'live-cams': 'Live Cams',
-    'fan-sites': 'Fan Sites',
-    'pay-sites': 'Pay Sites',
+    'fan-sites': 'Fansites',
+    'pay-sites': 'Paysites',
     'gay': 'Gay',
     'games': 'Games',
     'transgender': 'Transgender',
-    'unique-offers': 'Unique Offers',
+    'unique-offers': 'Special Offers',
   },
   es: {
     'ai-companions': 'Compa\u00f1eros IA',
@@ -86,7 +86,7 @@ const catLabels: Record<Locale, Record<string, string>> = {
     'gay': 'Gay',
     'games': 'Juegos',
     'transgender': 'Transg\u00e9nero',
-    'unique-offers': 'Ofertas \u00danicas',
+    'unique-offers': 'Ofertas Especiales',
   },
 };
 
