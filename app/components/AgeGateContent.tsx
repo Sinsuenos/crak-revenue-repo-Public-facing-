@@ -24,7 +24,7 @@ export default function AgeGateContent() {
       color: '#e5e5e5',
       position: 'relative',
     }}>
-      <div style={{ position: 'relative', zIndex: 2 }}><LanguageToggle /></div>
+      <LanguageToggle />
 
       <div style={{
         position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none',
@@ -130,7 +130,7 @@ export default function AgeGateContent() {
         >{t('age.exit')}</button>
       </div>
 
-      <div style={{ position: 'relative', zIndex: 2 }}><LegalFooter /></div>
+      <LegalFooter />
     </div>
   );
 }
