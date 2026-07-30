@@ -31,8 +31,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-7.com/413627/3785/0?po=6456&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Genuine Dating Connections',
-    captionEs: 'Conexiones de Citas Auténticas',
-    imageUrl: '/banners/real-connections.png'
+    captionEs: 'Conexiones de Citas Auténticas'
   },
   {
     slug: 'vecina-pasionales',
@@ -153,8 +152,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.amyfc.link/413627/779/0?aff_sub=CAMS&aff_sub2=MYFREE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Free Live Webcam Shows',
-    captionEs: 'Shows de Webcam Gratis en Vivo',
-    imageUrl: '/banners/myfreecams.png'
+    captionEs: 'Shows de Webcam Gratis en Vivo'
   },
 
   // ── AI Companions ──────────────────────────────────────────────
@@ -197,7 +195,7 @@ export const offers: Offer[] = [
     countries: [],
     caption: 'AI Girlfriend App',
     captionEs: 'App de Novia IA',
-    imageUrl: '/banners/candy-ai-girlfriend.png'
+    imageUrl: '/banners/candy-ai-official.png'
   },
   {
     slug: 'candy-ai-boyfriend',
@@ -208,7 +206,7 @@ export const offers: Offer[] = [
     countries: [],
     caption: 'Create AI Boyfriend',
     captionEs: 'Crea tu Novio IA',
-    imageUrl: '/banners/candy-ai-boyfriend.png'
+    imageUrl: '/banners/candy-ai-official.png'
   },
   {
     slug: 'candy-ai-tran',
@@ -219,7 +217,7 @@ export const offers: Offer[] = [
     countries: [],
     caption: 'Create AI Girlfriend',
     captionEs: 'Crea tu Novia IA',
-    imageUrl: '/banners/candy-ai-tran.png'
+    imageUrl: '/banners/candy-ai-official.png'
   },
   {
     slug: 'mylovely-ai-latina',
@@ -408,7 +406,7 @@ export const offers: Offer[] = [
     countries: [],
     caption: 'AI Girlfriend Chat',
     captionEs: 'Chat con Novia IA',
-    imageUrl: '/banners/girlfriend-gpt.png'
+
   },
 
   // ── Fansites ──────────────────────────────────────────────────
@@ -628,8 +626,7 @@ export const offers: Offer[] = [
       'Thailand', 'United Kingdom', 'United States'
     ],
     caption: 'Trans Dating Hub',
-    captionEs: 'Centro de Citas Trans',
-    imageUrl: '/banners/trans-smartlink.png'
+    captionEs: 'Centro de Citas Trans'
   },
   {
     slug: 'x-trans-dating',
@@ -639,8 +636,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Links',
-    captionEs: 'Enlaces de Citas Trans',
-    imageUrl: '/banners/x-trans-dating.png'
+    captionEs: 'Enlaces de Citas Trans'
   },
   {
     slug: 'jerkmate-trans',
@@ -672,8 +668,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/7090?aff_sub=REVIEWF&aff_sub2=REVIEWX&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Cross Dresser Dating',
-    captionEs: 'Citas Cross Dresser',
-    imageUrl: '/banners/cross-dresser.png'
+    captionEs: 'Citas Cross Dresser'
   },
   {
     slug: 'tsdates',
