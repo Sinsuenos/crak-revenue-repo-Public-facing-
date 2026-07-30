@@ -315,7 +315,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/7795?aff_sub=PerlaPuente&aff_sub2=Phone&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Companion Chat',
-    captionEs: 'Chat con Compañero IA'
+    captionEs: 'Chat con Compañero IA',
+    imageUrl: '/banners/get-harder.png'
   },
   {
     slug: 'get-harder-2',
@@ -325,7 +326,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Companion Chat',
-    captionEs: 'Chat con Compañero IA'
+    captionEs: 'Chat con Compañero IA',
+    imageUrl: '/banners/get-harder.png'
   },
   {
     slug: 'lusy-ai',
@@ -383,7 +385,8 @@ export const offers: Offer[] = [
       'Asia', 'Europe'
     ],
     caption: 'NSFW AI Chat',
-    captionEs: 'Chat IA +18'
+    captionEs: 'Chat IA +18',
+    imageUrl: '/banners/lusy-ai.png'
   },
   {
     slug: 'lovel-ai',
@@ -428,7 +431,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Mila',
-    captionEs: 'Suscríbete a Mila'
+    captionEs: 'Suscríbete a Mila',
+    imageUrl: '/banners/mila-lerue.png'
   },
   {
     slug: 'amber-santori',
@@ -438,7 +442,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Amber',
-    captionEs: 'Suscríbete a Amber'
+    captionEs: 'Suscríbete a Amber',
+    imageUrl: '/banners/amber-santori.png'
   },
   {
     slug: 'lina-rose',
@@ -448,7 +453,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Lina',
-    captionEs: 'Suscríbete a Lina'
+    captionEs: 'Suscríbete a Lina',
+    imageUrl: '/banners/lina-rose.png'
   },
   {
     slug: 'talia-rose',
@@ -458,7 +464,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10398/0?aff_sub=FAN&aff_sub2=TALIAR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Talia',
-    captionEs: 'Suscríbete a Talia'
+    captionEs: 'Suscríbete a Talia',
+    imageUrl: '/banners/talia-rose.png'
   },
 
   // ── Paysites ──────────────────────────────────────────────────
@@ -503,7 +510,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.ajump2.com/413627/9248/35234?aff_sub=PAYSTE&aff_sub2=FAP&aff_sub3=PSTARLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Video Library',
-    captionEs: 'Biblioteca de Video Premium'
+    captionEs: 'Biblioteca de Video Premium',
+    imageUrl: '/banners/faphouse.png'
   },
 
   // ── Gay ────────────────────────────────────────────────────────
@@ -548,7 +556,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-7.com/413627/4080/0?aff_sub=GAY&source=Cantina&po=6456&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Local Gay Dating',
-    captionEs: 'Citas Gay Locales'
+    captionEs: 'Citas Gay Locales',
+    imageUrl: '/banners/local-dating-gay.png'
   },
   {
     slug: 'xlovegay-cams',
@@ -558,7 +567,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk1.com/413627/2494/0?aff_sub=GAY&aff_sub2=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Live Cam Shows',
-    captionEs: 'Shows de Cámaras Gay en Vivo'
+    captionEs: 'Shows de Cámaras Gay en Vivo',
+    imageUrl: '/banners/xlovegay-cams.png'
   },
   {
     slug: 'royal-cams',
@@ -568,7 +578,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk1.com/413627/4533/0?aff_sub=GAY&aff_sub2=RYLCAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Gay Cams',
-    captionEs: 'Cámaras Gay Premium'
+    captionEs: 'Cámaras Gay Premium',
+    imageUrl: '/banners/royal-cams.png'
   },
 
   // ── Games ──────────────────────────────────────────────────────
@@ -672,7 +683,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Network',
-    captionEs: 'Red de Citas Trans'
+    captionEs: 'Red de Citas Trans',
+    imageUrl: '/banners/tsdates.png'
   },
 
   // ── Unique Offers ──────────────────────────────────────────────
