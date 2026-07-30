@@ -106,7 +106,18 @@ export default function RepositoryContent() {
   const secondGroups = grouped.slice(midGroup);
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div style={{
+      minHeight: '100vh', display: 'flex', flexDirection: 'column',
+      position: 'relative',
+      backgroundImage: "url('/repository-bg.jpg')",
+      backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat',
+      backgroundColor: '#0c0c14',
+    }}>
+      <div style={{
+        position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none',
+        background: 'linear-gradient(145deg, rgba(12,12,20,0.82) 0%, rgba(15,15,26,0.78) 40%, rgba(12,12,20,0.85) 100%)',
+      }} />
+      <div style={{ position: 'relative', zIndex: 1, flex: 1, display: 'flex', flexDirection: 'column' }}>
       <LanguageToggle />
       <main style={{ flex: 1, padding: '32px 24px 64px', maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
         <MyErolink />
@@ -148,6 +159,7 @@ export default function RepositoryContent() {
         ))}
       </main>
       <LegalFooter />
+      </div>
     </div>
   );
 }
