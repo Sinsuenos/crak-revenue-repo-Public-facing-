@@ -22,7 +22,8 @@ export const GOLD = '#DAB12A';
 
 const ui: Record<Locale, Record<string, string>> = {
   en: {
-    'age.subtitle': 'Dating \u00b7 Live Cams \u00b7 AI Companions \u00b7 Fansites \u00b7 Paysites \u00b7 Gay \u00b7 Games \u00b7 Transgender',
+    'age.row1': 'Dating \u2022 Live Cams \u2022 AI Companions \u2022 Fansites',
+    'age.row2': 'Paysites \u2022 Gay \u2022 Games \u2022 Transgender',
     'age.contact_prefix': 'Looking for something specific? Contact me.',
     'age.enter': 'ENTER',
     'age.exit': 'EXIT',
@@ -43,7 +44,8 @@ const ui: Record<Locale, Record<string, string>> = {
     'contact.title': 'Contact',
   },
   es: {
-    'age.subtitle': 'Citas \u00b7 C\u00e1maras en Vivo \u00b7 Compa\u00f1eros IA \u00b7 Sitios de Fans \u00b7 Sitios Premium \u00b7 Gay \u00b7 Juegos \u00b7 Transg\u00e9nero',
+    'age.row1': 'Citas \u2022 C\u00e1maras en Vivo \u2022 Compa\u00f1eros IA \u2022 Sitios de Fans',
+    'age.row2': 'Sitios Premium \u2022 Gay \u2022 Juegos \u2022 Transg\u00e9nero',
     'age.contact_prefix': 'Buscas algo espec\u00edfico? Cont\u00e1ctame.',
     'age.enter': 'ENTRAR',
     'age.exit': 'SALIR',

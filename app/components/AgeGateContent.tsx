@@ -1,14 +1,13 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useI18n, GOLD, getCatLabel } from '@/lib/i18n';
+import { useI18n, GOLD } from '@/lib/i18n';
 import LegalFooter from './LegalFooter';
 import LanguageToggle from './LanguageToggle';
-import { categories } from '@/data/categories';
 
 export default function AgeGateContent() {
   const router = useRouter();
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
 
   return (
     <div style={{
@@ -74,21 +73,13 @@ export default function AgeGateContent() {
         </p>
 
         <div style={{
-          display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
-          gap: '10px', maxWidth: '640px', width: '100%', margin: '0 0 32px',
+          margin: '0 0 32px', textAlign: 'center',
+          fontSize: '14px', color: 'rgba(255,255,255,0.45)',
+          lineHeight: '2', letterSpacing: '0.3px', maxWidth: '640px',
         }}>
-          {categories.filter(c => c.slug !== 'unique-offers').map((cat) => (
-            <div key={cat.slug} style={{
-              textAlign: 'center', padding: '10px 8px',
-              borderRadius: '10px', border: `1px solid ${cat.color}40`,
-              background: `${cat.color}10`,
-            }}>
-              <span style={{
-                fontSize: '12px', fontWeight: 700, color: cat.color,
-                letterSpacing: '0.5px', textTransform: 'uppercase',
-              }}>{getCatLabel(cat.slug, locale)}</span>
-            </div>
-          ))}
+          {t('age.row1')}
+          <br />
+          {t('age.row2')}
         </div>
 
         <button

@@ -36,18 +36,18 @@ export default function LegalFooter() {
         alignItems: 'center',
         gap: '8px',
         fontSize: '13px',
-        color: 'rgba(255,255,255,0.6)',
+        color: 'rgba(255,255,255,0.75)',
         flexWrap: 'wrap',
       }}>
         <span style={{ color: GOLD, fontWeight: 700 }}>{t('footer.adults')}</span>
         <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
-        <Link href="/legal/dmca" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>{t('footer.dmca')}</Link>
+        <Link href="/legal/dmca" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.dmca')}</Link>
         <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
-        <Link href="/legal/privacy" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>{t('footer.privacy')}</Link>
+        <Link href="/legal/privacy" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.privacy')}</Link>
         <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
-        <Link href="/legal/terms" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>{t('footer.terms')}</Link>
+        <Link href="/legal/terms" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.terms')}</Link>
         <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
-        <Link href="/legal/contact" style={{ color: 'rgba(255,255,255,0.6)', textDecoration: 'none' }}>{t('footer.contact')}</Link>
+        <Link href="/legal/contact" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.contact')}</Link>
       </div>
     </footer>
   );
