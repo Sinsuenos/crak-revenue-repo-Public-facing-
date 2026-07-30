@@ -13,7 +13,7 @@ export const categories: CategoryConfig[] = [
   { label: 'Gay',             slug: 'gay',           color: '#4E9DE0' },
   { label: 'Games',           slug: 'games',         color: '#52B788' },
   { label: 'Transgender',     slug: 'transgender',   color: '#C77DFF' },
-  { label: 'Special Offers',  slug: 'unique-offers', color: '#F72585' },
+  { label: 'Unique Offers',   slug: 'unique-offers', color: '#F72585' },
 ];
 
 export function getCategoryColor(categoryLabel: string): string {

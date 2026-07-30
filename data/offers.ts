@@ -687,11 +687,11 @@ export const offers: Offer[] = [
     imageUrl: '/banners/tsdates.png'
   },
 
-  // ── Special Offers ──────────────────────────────────────────────
+  // ── Unique Offers ──────────────────────────────────────────────
   {
     slug: 'xgamehub',
     title: 'XGameHub',
-    category: 'Special Offers',
+    category: 'Unique Offers',
     description: 'High-quality adult interactive story games',
     affiliateUrl: 'https://t.anadw.link/413627/10421/0?aff_sub=SUENOS&aff_sub2=PRIVADOS&aff_sub3=NOCHES&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
@@ -702,7 +702,7 @@ export const offers: Offer[] = [
   {
     slug: 'smoke-and-poke',
     title: 'Smoke and Poke',
-    category: 'Special Offers',
+    category: 'Unique Offers',
     description: '420-friendly dating app',
     affiliateUrl: 'https://t.crdtg3.com/413627/8228/0?aff_sub=SUENOS&aff_sub2=SNOCHES&aff_sub3=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
@@ -713,7 +713,7 @@ export const offers: Offer[] = [
   {
     slug: 'sex-messenger',
     title: 'Sex Messenger',
-    category: 'Special Offers',
+    category: 'Unique Offers',
     description: 'Uncensored chat platform',
     affiliateUrl: 'https://t.crdtg3.com/413627/7234?aff_sub=SSuenos_Smrtlnk&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
@@ -724,7 +724,7 @@ export const offers: Offer[] = [
   {
     slug: 'instabang-latinas',
     title: 'Instabang Latinas',
-    category: 'Special Offers',
+    category: 'Unique Offers',
     description: 'Casual hookups, Latina-focused',
     affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],

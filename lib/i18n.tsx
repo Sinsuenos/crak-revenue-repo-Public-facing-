@@ -77,7 +77,7 @@ const catLabels: Record<Locale, Record<string, string>> = {
     'gay': 'Gay',
     'games': 'Games',
     'transgender': 'Transgender',
-    'unique-offers': 'Special Offers',
+    'unique-offers': 'Unique Offers',
   },
   es: {
     'ai-companions': 'Compa\u00f1eros IA',
