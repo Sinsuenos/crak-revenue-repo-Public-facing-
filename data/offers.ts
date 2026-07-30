@@ -42,8 +42,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Passionate Local Dating',
-    captionEs: 'Citas Locales Apasionadas',
-    imageUrl: '/banners/vecina-pasionales.png'
+    captionEs: 'Citas Locales Apasionadas'
   },
   {
     slug: 'hometown-flirt',
@@ -251,8 +250,8 @@ export const offers: Offer[] = [
     description: 'Spicier autoland AI experience',
     affiliateUrl: 'https://t.vlmai-1.com/413627/7942?aff_sub=AUTOLAND_SUENOS_JUNE5&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'AI Smart Landing',
-    captionEs: 'Landing Inteligente IA',
+    caption: 'Build Your AI Companion',
+    captionEs: 'Crea tu Compañero IA',
     imageUrl: '/banners/spicier-autoland.png'
   },
   {
@@ -262,8 +261,8 @@ export const offers: Offer[] = [
     description: 'Spicier tran AI companion',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10257/39822?aff_sub=GPRIV&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'AI Character Creation',
-    captionEs: 'Creación de Personajes IA',
+    caption: 'Explore AI Characters',
+    captionEs: 'Explora Personajes IA',
     imageUrl: '/banners/spicier-tran-ai.png'
   },
   {
@@ -306,9 +305,8 @@ export const offers: Offer[] = [
     description: 'Male AI companion enhancement',
     affiliateUrl: 'https://t.vlmai-1.com/413627/7795?aff_sub=PerlaPuente&aff_sub2=Phone&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'NSFW AI Chat',
-    captionEs: 'Chat IA +18',
-    imageUrl: '/banners/get-harder.png'
+    caption: 'AI Companion Chat',
+    captionEs: 'Chat con Compañero IA'
   },
   {
     slug: 'get-harder-2',
@@ -317,9 +315,8 @@ export const offers: Offer[] = [
     description: 'Male AI companion, alternate landing',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'NSFW AI Chat',
-    captionEs: 'Chat IA +18',
-    imageUrl: '/banners/get-harder-2.png'
+    caption: 'AI Companion Chat',
+    captionEs: 'Chat con Compañero IA'
   },
   {
     slug: 'lusy-ai',
@@ -400,8 +397,8 @@ export const offers: Offer[] = [
     description: 'Premium creator platform, France',
     affiliateUrl: 'https://t.acust-9.com/413627/9304/36088?aff_sub=FANSTE&aff_sub2=DNKAMRIVIP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'Premium Creator Content',
-    captionEs: 'Contenido Premium de Creadores',
+    caption: 'Meet Your Model — Premium Content',
+    captionEs: 'Conoce a Tu Modelo — Contenido Premium',
     imageUrl: '/banners/mym-fans.png'
   },
   {
@@ -412,8 +409,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10395/0?aff_sub=FANSTE&aff_sub2=MILALARUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Mila',
-    captionEs: 'Suscríbete a Mila',
-    imageUrl: '/banners/mila-lerue.png'
+    captionEs: 'Suscríbete a Mila'
   },
   {
     slug: 'amber-santori',
@@ -423,8 +419,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10394/0?aff_sub=FAN&aff_sub2=AMBERS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Amber',
-    captionEs: 'Suscríbete a Amber',
-    imageUrl: '/banners/amber-santori.png'
+    captionEs: 'Suscríbete a Amber'
   },
   {
     slug: 'lina-rose',
@@ -434,8 +429,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10396/0?aff_sub=SinNoches_REV25_LinaRose&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Lina',
-    captionEs: 'Suscríbete a Lina',
-    imageUrl: '/banners/lina-rose.png'
+    captionEs: 'Suscríbete a Lina'
   },
 
   // ── Paysites ──────────────────────────────────────────────────
