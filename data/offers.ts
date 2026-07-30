@@ -24,15 +24,15 @@ export const offers: Offer[] = [
     imageUrl: '/banners/vicky-milan.png'
   },
   {
-    slug: 'instabang-latinas',
-    title: 'Instabang Latinas',
+    slug: 'real-connections',
+    title: 'Real Connections',
     category: 'Dating',
-    description: 'Casual hookups, Latina-focused',
-    affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    description: 'Genuine dating and real connections',
+    affiliateUrl: 'https://t.acust-7.com/413627/3785/0?po=6456&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'Latina Casual Hookups',
-    captionEs: 'Encuentros Casuales Latinas',
-    imageUrl: '/banners/instabang-latinas.png'
+    caption: 'Genuine Dating Connections',
+    captionEs: 'Conexiones de Citas Auténticas',
+    imageUrl: '/banners/real-connections.png'
   },
   {
     slug: 'vecina-pasionales',
@@ -144,6 +144,17 @@ export const offers: Offer[] = [
     caption: 'Live Couple Cams',
     captionEs: 'Cámaras de Parejas en Vivo',
     imageUrl: '/banners/sweepsex-cams.png'
+  },
+  {
+    slug: 'myfreecams',
+    title: 'MyFreeCams',
+    category: 'Live Cams',
+    description: 'Free live webcam platform',
+    affiliateUrl: 'https://t.amyfc.link/413627/779/0?aff_sub=CAMS&aff_sub2=MYFREE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Free Live Webcam Shows',
+    captionEs: 'Shows de Webcam Gratis en Vivo',
+    imageUrl: '/banners/myfreecams.png'
   },
 
   // ── AI Companions ──────────────────────────────────────────────
@@ -388,6 +399,17 @@ export const offers: Offer[] = [
     captionEs: 'Chatbot de Novia IA',
     imageUrl: '/banners/lovel-ai.png'
   },
+  {
+    slug: 'girlfriend-gpt',
+    title: 'Girlfriend GPT',
+    category: 'AI Companions',
+    description: 'AI-powered girlfriend chat companion',
+    affiliateUrl: 'https://t.vlmai-1.com/413627/10046/38605?aff_sub=AI&source=Cantina&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'AI Girlfriend Chat',
+    captionEs: 'Chat con Novia IA',
+    imageUrl: '/banners/girlfriend-gpt.png'
+  },
 
   // ── Fansites ──────────────────────────────────────────────────
   {
@@ -431,6 +453,17 @@ export const offers: Offer[] = [
     caption: 'Subscribe To Lina',
     captionEs: 'Suscríbete a Lina'
   },
+  {
+    slug: 'talia-rose',
+    title: 'Talia Rose',
+    category: 'Fansites',
+    description: 'Creator subscriptions, Talia Rose',
+    affiliateUrl: 'https://t.acust-9.com/413627/10398/0?aff_sub=FAN&aff_sub2=TALIAR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Subscribe To Talia',
+    captionEs: 'Suscríbete a Talia',
+    imageUrl: '/banners/talia-rose.png'
+  },
 
   // ── Paysites ──────────────────────────────────────────────────
   {
@@ -466,6 +499,17 @@ export const offers: Offer[] = [
     captionEs: 'Acceso a Estudios Premium',
     imageUrl: '/banners/vixenplus.png'
   },
+  {
+    slug: 'faphouse',
+    title: 'FapHouse',
+    category: 'Paysites',
+    description: 'Premium video content library',
+    affiliateUrl: 'https://t.ajump2.com/413627/9248/35234?aff_sub=PAYSTE&aff_sub2=FAP&aff_sub3=PSTARLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Premium Video Library',
+    captionEs: 'Biblioteca de Video Premium',
+    imageUrl: '/banners/faphouse.png'
+  },
 
   // ── Gay ────────────────────────────────────────────────────────
   {
@@ -500,6 +544,39 @@ export const offers: Offer[] = [
     caption: 'Gay Mature Dating',
     captionEs: 'Citas Gay Maduras',
     imageUrl: '/banners/filf-gay.png'
+  },
+  {
+    slug: 'local-dating-gay',
+    title: 'Local Dating',
+    category: 'Gay',
+    description: 'Local gay dating and connections',
+    affiliateUrl: 'https://t.acust-7.com/413627/4080/0?aff_sub=GAY&source=Cantina&po=6456&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Local Gay Dating',
+    captionEs: 'Citas Gay Locales',
+    imageUrl: '/banners/local-dating-gay.png'
+  },
+  {
+    slug: 'xlovegay-cams',
+    title: 'XLoveGay Cams',
+    category: 'Gay',
+    description: 'Gay live cam platform',
+    affiliateUrl: 'https://t.camsk1.com/413627/2494/0?aff_sub=GAY&aff_sub2=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gay Live Cam Shows',
+    captionEs: 'Shows de Cámaras Gay en Vivo',
+    imageUrl: '/banners/xlovegay-cams.png'
+  },
+  {
+    slug: 'royal-cams',
+    title: 'Royal Cams',
+    category: 'Gay',
+    description: 'Premium gay live cam experience',
+    affiliateUrl: 'https://t.camsk1.com/413627/4533/0?aff_sub=GAY&aff_sub2=RYLCAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Premium Gay Cams',
+    captionEs: 'Cámaras Gay Premium',
+    imageUrl: '/banners/royal-cams.png'
   },
 
   // ── Games ──────────────────────────────────────────────────────
@@ -598,6 +675,17 @@ export const offers: Offer[] = [
     captionEs: 'Citas Cross Dresser',
     imageUrl: '/banners/cross-dresser.png'
   },
+  {
+    slug: 'tsdates',
+    title: 'TSDates',
+    category: 'Transgender',
+    description: 'Trans dating and connections',
+    affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Trans Dating Network',
+    captionEs: 'Red de Citas Trans',
+    imageUrl: '/banners/tsdates.png'
+  },
 
   // ── Special Offers ──────────────────────────────────────────────
   {
@@ -632,5 +720,16 @@ export const offers: Offer[] = [
     caption: 'Uncensored Adult Chat',
     captionEs: 'Chat Adulto Sin Censura',
     imageUrl: '/banners/sex-messenger.png'
+  },
+  {
+    slug: 'instabang-latinas',
+    title: 'Instabang Latinas',
+    category: 'Special Offers',
+    description: 'Casual hookups, Latina-focused',
+    affiliateUrl: 'https://t.datsk11.com/413627/7912/27172?aff_sub=UNIQUE&aff_sub2=LATLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Latina Casual Hookups',
+    captionEs: 'Encuentros Casuales Latinas',
+    imageUrl: '/banners/instabang-latinas.png'
   },
 ];
