@@ -212,7 +212,7 @@ export const offers: Offer[] = [
     slug: 'candy-ai-tran',
     title: 'Candy AI Trans',
     category: 'AI Companions',
-    description: 'Candy AI tran anime landing',
+    description: 'Trans AI anime companion',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10022/37991?aff_sub=GPRIVADO_TRANAI_PPSCANDY&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Create AI Girlfriend',
@@ -254,9 +254,9 @@ export const offers: Offer[] = [
   },
   {
     slug: 'spicier-autoland',
-    title: 'Spicier Autoland',
+    title: 'Spicier AI Match',
     category: 'AI Companions',
-    description: 'Spicier autoland AI experience',
+    description: 'AI companion matching experience',
     affiliateUrl: 'https://t.vlmai-1.com/413627/7942?aff_sub=AUTOLAND_SUENOS_JUNE5&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Build Your AI Companion',
@@ -321,7 +321,7 @@ export const offers: Offer[] = [
     slug: 'get-harder-2',
     title: 'Get Harder AI',
     category: 'AI Companions',
-    description: 'Male AI companion, alternate landing',
+    description: 'Male AI companion chat',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'AI Companion Chat',
@@ -383,8 +383,7 @@ export const offers: Offer[] = [
       'Asia', 'Europe'
     ],
     caption: 'NSFW AI Chat',
-    captionEs: 'Chat IA +18',
-    imageUrl: '/banners/lusy-ai.png'
+    captionEs: 'Chat IA +18'
   },
   {
     slug: 'lovel-ai',
@@ -459,8 +458,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-9.com/413627/10398/0?aff_sub=FAN&aff_sub2=TALIAR&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Subscribe To Talia',
-    captionEs: 'Suscríbete a Talia',
-    imageUrl: '/banners/talia-rose.png'
+    captionEs: 'Suscríbete a Talia'
   },
 
   // ── Paysites ──────────────────────────────────────────────────
@@ -505,16 +503,15 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.ajump2.com/413627/9248/35234?aff_sub=PAYSTE&aff_sub2=FAP&aff_sub3=PSTARLP&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Video Library',
-    captionEs: 'Biblioteca de Video Premium',
-    imageUrl: '/banners/faphouse.png'
+    captionEs: 'Biblioteca de Video Premium'
   },
 
   // ── Gay ────────────────────────────────────────────────────────
   {
     slug: 'gay-dating-smartlink',
-    title: 'Gay Dating Regional Website',
+    title: 'Gay Dating Network',
     category: 'Gay',
-    description: 'Gay dating multi offer smartlink',
+    description: 'Gay dating and connections',
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Dating Hub',
@@ -534,9 +531,9 @@ export const offers: Offer[] = [
   },
   {
     slug: 'filf-gay',
-    title: 'FILF Gay Regional Website',
+    title: 'FILF Gay',
     category: 'Gay',
-    description: 'FILF gay smartlink',
+    description: 'FILF gay dating platform',
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=FILFGolfoPrivado1&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Mature Dating',
@@ -551,8 +548,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-7.com/413627/4080/0?aff_sub=GAY&source=Cantina&po=6456&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Local Gay Dating',
-    captionEs: 'Citas Gay Locales',
-    imageUrl: '/banners/local-dating-gay.png'
+    captionEs: 'Citas Gay Locales'
   },
   {
     slug: 'xlovegay-cams',
@@ -562,8 +558,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk1.com/413627/2494/0?aff_sub=GAY&aff_sub2=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Live Cam Shows',
-    captionEs: 'Shows de Cámaras Gay en Vivo',
-    imageUrl: '/banners/xlovegay-cams.png'
+    captionEs: 'Shows de Cámaras Gay en Vivo'
   },
   {
     slug: 'royal-cams',
@@ -573,8 +568,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.camsk1.com/413627/4533/0?aff_sub=GAY&aff_sub2=RYLCAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Premium Gay Cams',
-    captionEs: 'Cámaras Gay Premium',
-    imageUrl: '/banners/royal-cams.png'
+    captionEs: 'Cámaras Gay Premium'
   },
 
   // ── Games ──────────────────────────────────────────────────────
@@ -615,9 +609,9 @@ export const offers: Offer[] = [
   // ── Transgender ────────────────────────────────────────────────
   {
     slug: 'trans-smartlink',
-    title: 'Trans Regional Website',
+    title: 'Trans Dating Hub',
     category: 'Transgender',
-    description: 'Trans dating multi-offer smartlink',
+    description: 'Trans dating and connections',
     affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [
       'Australia', 'Austria', 'Belgium', 'Brazil', 'Canada', 'Chile', 'Taiwan',
@@ -632,7 +626,7 @@ export const offers: Offer[] = [
     slug: 'x-trans-dating',
     title: 'Trans Dating',
     category: 'Transgender',
-    description: 'Trans dating smartlink',
+    description: 'Trans dating platform',
     affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Links',
@@ -662,9 +656,9 @@ export const offers: Offer[] = [
   },
   {
     slug: 'cross-dresser',
-    title: 'Cross Dresser Smart Landing',
+    title: 'Cross Dresser Dating',
     category: 'Transgender',
-    description: 'Cross dresser smart landing',
+    description: 'Cross dresser dating platform',
     affiliateUrl: 'https://t.crdtg3.com/413627/7090?aff_sub=REVIEWF&aff_sub2=REVIEWX&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Cross Dresser Dating',
@@ -678,8 +672,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.datsk11.com/413627/10208/38811?aff_sub=TRANS&aff_sub2=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Network',
-    captionEs: 'Red de Citas Trans',
-    imageUrl: '/banners/tsdates.png'
+    captionEs: 'Red de Citas Trans'
   },
 
   // ── Unique Offers ──────────────────────────────────────────────
