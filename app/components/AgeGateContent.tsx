@@ -61,11 +61,6 @@ export default function AgeGateContent() {
         }}>CANTINA VIRTUAL</h1>
 
         <p style={{
-          margin: '0 0 24px', fontSize: '15px', color: 'rgba(255,255,255,0.5)',
-          textAlign: 'center', maxWidth: '500px', lineHeight: 1.6, letterSpacing: '0.5px',
-        }}>{t('age.subtitle')}</p>
-
-        <p style={{
           margin: '0 0 20px', fontSize: '14px', color: 'rgba(255,255,255,0.4)', textAlign: 'center',
         }}>
           {t('age.contact_prefix')}{' '}
