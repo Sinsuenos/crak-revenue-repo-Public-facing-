@@ -152,7 +152,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.amyfc.link/413627/779/0?aff_sub=CAMS&aff_sub2=MYFREE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Free Live Webcam Shows',
-    captionEs: 'Shows de Webcam Gratis en Vivo'
+    captionEs: 'Shows de Webcam Gratis en Vivo',
+    imageUrl: '/banners/myfreecams.png'
   },
 
   // ── AI Companions ──────────────────────────────────────────────
@@ -292,8 +293,8 @@ export const offers: Offer[] = [
     description: 'Build your own male AI companion',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40553?aff_sub=GPRIVADO&source=x&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'Create AI Companion',
-    captionEs: 'Crea tu Compañero IA',
+    caption: 'Male AI Companion',
+    captionEs: 'Compañero IA Masculino',
     imageUrl: '/banners/dondi-male-ai.png'
   },
   {
@@ -303,8 +304,8 @@ export const offers: Offer[] = [
     description: 'Custom AI girlfriend builder, desktop',
     affiliateUrl: 'https://t.vlmai-1.com/413627/10418/40552?aff_sub=SNOCHES_AIGF_PPS_CARRD1&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'Create AI Companion',
-    captionEs: 'Crea tu Compañero IA',
+    caption: 'AI Girlfriend Builder',
+    captionEs: 'Creador de Novia IA',
     imageUrl: '/banners/dondi-gf-pc.png'
   },
   {
@@ -314,19 +315,8 @@ export const offers: Offer[] = [
     description: 'Male AI companion enhancement',
     affiliateUrl: 'https://t.vlmai-1.com/413627/7795?aff_sub=PerlaPuente&aff_sub2=Phone&source=TikTok&aff_sub5=SF_006OG000004lmDN',
     countries: [],
-    caption: 'AI Companion Chat',
-    captionEs: 'Chat con Compañero IA',
-    imageUrl: '/banners/get-harder.png'
-  },
-  {
-    slug: 'get-harder-2',
-    title: 'Get Harder AI',
-    category: 'AI Companions',
-    description: 'Male AI companion chat',
-    affiliateUrl: 'https://t.vlmai-1.com/413627/10182/0?aff_sub=SSuenosTTP2&source=TikTok&aff_sub5=SF_006OG000004lmDN',
-    countries: [],
-    caption: 'AI Companion Chat',
-    captionEs: 'Chat con Compañero IA',
+    caption: 'NSFW AI Chat',
+    captionEs: 'Chat IA +18',
     imageUrl: '/banners/get-harder.png'
   },
   {
@@ -408,6 +398,7 @@ export const offers: Offer[] = [
     countries: [],
     caption: 'AI Girlfriend Chat',
     captionEs: 'Chat con Novia IA',
+    imageUrl: '/banners/girlfriend-gpt.png',
 
   },
 
@@ -523,8 +514,7 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Dating Hub',
-    captionEs: 'Centro de Citas Gay',
-    imageUrl: '/banners/gay-dating-smartlink.png'
+    captionEs: 'Centro de Citas Gay'
   },
   {
     slug: 'gay-bloom',
