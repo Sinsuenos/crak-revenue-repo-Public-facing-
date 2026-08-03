@@ -496,6 +496,17 @@ export const offers: Offer[] = [
     imageUrl: '/banners/vixenplus.png'
   },
   {
+    slug: 'vixenplus-plus',
+    title: 'VixenPlus+',
+    category: 'Paysites',
+    description: 'VixenPlus 9-site bundle deal',
+    affiliateUrl: 'https://t.bbwafx.com/413627/10405/0?aff_sub=PAYSTE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: '9 SITES $1',
+    captionEs: '9 SITIOS $1',
+    imageUrl: '/banners/vixenplus-plus.png'
+  },
+  {
     slug: 'faphouse',
     title: 'FapHouse',
     category: 'Paysites',
