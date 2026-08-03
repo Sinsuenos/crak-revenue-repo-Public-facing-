@@ -24,7 +24,7 @@ const ui: Record<Locale, Record<string, string>> = {
   en: {
     'age.row1': 'Dating \u2022 Live Cams \u2022 AI Companions \u2022 Fansites',
     'age.row2': 'Paysites \u2022 Gay \u2022 Games \u2022 Transgender',
-    'age.contact_prefix': 'Looking for something specific? Contact me.',
+    'age.contact_prefix': 'Looking for something specific? Contact us.',
     'age.enter': 'ENTER',
     'age.exit': 'EXIT',
     'cat.all': 'All',
@@ -46,7 +46,7 @@ const ui: Record<Locale, Record<string, string>> = {
   es: {
     'age.row1': 'Citas \u2022 C\u00e1maras en Vivo \u2022 Compa\u00f1eros IA \u2022 Sitios de Fans',
     'age.row2': 'Sitios Premium \u2022 Gay \u2022 Juegos \u2022 Transg\u00e9nero',
-    'age.contact_prefix': 'Buscas algo espec\u00edfico? Cont\u00e1ctame.',
+    'age.contact_prefix': 'Buscas algo espec\u00edfico? Cont\u00e1ctanos.',
     'age.enter': 'ENTRAR',
     'age.exit': 'SALIR',
     'cat.all': 'Todos',

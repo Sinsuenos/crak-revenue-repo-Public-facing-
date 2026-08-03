@@ -1,8 +1,8 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { useI18n, GOLD } from '@/lib/i18n';
-import LegalFooter from './LegalFooter';
 import LanguageToggle from './LanguageToggle';
 
 export default function AgeGateContent() {
@@ -62,7 +62,7 @@ export default function AgeGateContent() {
         }}>CANTINA VIRTUAL</h1>
 
         <p style={{
-          margin: '0 0 20px', fontSize: '14px', color: 'rgba(255,255,255,0.4)', textAlign: 'center',
+          margin: '0 0 20px', fontSize: '18px', color: 'rgba(255,255,255,0.8)', textAlign: 'center',
         }}>
           {t('age.contact_prefix')}{' '}
           <a href="mailto:sinaloainspireddreams@gmail.com" style={{ color: GOLD, textDecoration: 'none' }}>sinaloainspireddreams@gmail.com</a>
@@ -70,7 +70,7 @@ export default function AgeGateContent() {
 
         <div style={{
           margin: '0 0 32px', textAlign: 'center',
-          fontSize: '14px', color: 'rgba(255,255,255,0.45)',
+          fontSize: '18px', color: 'rgba(255,255,255,0.8)',
           lineHeight: '2', letterSpacing: '0.3px', maxWidth: '640px',
         }}>
           {t('age.row1')}
@@ -117,7 +117,49 @@ export default function AgeGateContent() {
         >{t('age.exit')}</button>
       </div>
 
-      <LegalFooter />
+      <footer style={{
+        background: 'transparent',
+        borderTop: '1px solid rgba(218,177,42,0.2)',
+        padding: '20px 24px',
+        textAlign: 'center',
+        position: 'relative', zIndex: 2,
+      }}>
+        <div style={{ marginBottom: '12px' }}>
+          <a
+            href="https://myerolink.com/sinaloainspireddreams"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: '22px',
+              fontWeight: 800,
+              color: GOLD,
+              textDecoration: 'none',
+              letterSpacing: '3px',
+            }}
+          >
+            MYEROLINK
+          </a>
+        </div>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '8px',
+          fontSize: '13px',
+          color: 'rgba(255,255,255,0.75)',
+          flexWrap: 'wrap',
+        }}>
+          <span style={{ color: GOLD, fontWeight: 700 }}>{t('footer.adults')}</span>
+          <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
+          <Link href="/legal/dmca" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.dmca')}</Link>
+          <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
+          <Link href="/legal/privacy" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.privacy')}</Link>
+          <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
+          <Link href="/legal/terms" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.terms')}</Link>
+          <span style={{ color: 'rgba(255,255,255,0.3)' }}>|</span>
+          <Link href="/legal/contact" style={{ color: 'rgba(255,255,255,0.85)', textDecoration: 'none' }}>{t('footer.contact')}</Link>
+        </div>
+      </footer>
     </div>
   );
 }
