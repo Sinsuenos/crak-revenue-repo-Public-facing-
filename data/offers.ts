@@ -31,7 +31,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.acust-7.com/413627/3785/0?po=6456&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Genuine Dating Connections',
-    captionEs: 'Conexiones de Citas Auténticas'
+    captionEs: 'Conexiones de Citas Auténticas',
+    imageUrl: '/banners/real-connections.png'
   },
   {
     slug: 'vecina-pasionales',
@@ -41,7 +42,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/10457/40657?aff_sub=DATING&aff_sub2=VESCINAPAS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Passionate Local Dating',
-    captionEs: 'Citas Locales Apasionadas'
+    captionEs: 'Citas Locales Apasionadas',
+    imageUrl: '/banners/vecina-pasionales.png'
   },
   {
     slug: 'hometown-flirt',
@@ -514,7 +516,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.mbjms.com/413627/4080/0?aff_sub=GoloPrivado_May30&source=Twitter&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Gay Dating Hub',
-    captionEs: 'Centro de Citas Gay'
+    captionEs: 'Centro de Citas Gay',
+    imageUrl: '/banners/gay-dating-smartlink.png'
   },
   {
     slug: 'gay-bloom',
@@ -621,7 +624,8 @@ export const offers: Offer[] = [
       'Thailand', 'United Kingdom', 'United States'
     ],
     caption: 'Trans Dating Hub',
-    captionEs: 'Centro de Citas Trans'
+    captionEs: 'Centro de Citas Trans',
+    imageUrl: '/banners/trans-smartlink.png'
   },
   {
     slug: 'x-trans-dating',
@@ -631,7 +635,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/9144/37522?aff_sub=GPRIVADO&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Trans Dating Links',
-    captionEs: 'Enlaces de Citas Trans'
+    captionEs: 'Enlaces de Citas Trans',
+    imageUrl: '/banners/x-trans-dating.png'
   },
   {
     slug: 'jerkmate-trans',
@@ -663,7 +668,8 @@ export const offers: Offer[] = [
     affiliateUrl: 'https://t.crdtg3.com/413627/7090?aff_sub=REVIEWF&aff_sub2=REVIEWX&source=X&aff_sub5=SF_006OG000004lmDN',
     countries: [],
     caption: 'Cross Dresser Dating',
-    captionEs: 'Citas Cross Dresser'
+    captionEs: 'Citas Cross Dresser',
+    imageUrl: '/banners/cross-dresser.png'
   },
   {
     slug: 'tsdates',

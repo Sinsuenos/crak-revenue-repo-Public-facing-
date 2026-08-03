@@ -26,8 +26,18 @@ export default function AgeGateContent() {
       <LanguageToggle />
 
       <div style={{
+        position: 'fixed', top: '16px', left: '16px', zIndex: 10,
+        width: '42px', height: '42px', borderRadius: '50%',
+        border: `1.5px solid ${GOLD}50`,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(6px)',
+      }}>
+        <span style={{ fontSize: '14px', fontWeight: 800, color: GOLD, lineHeight: 1, letterSpacing: '-0.5px' }}>18+</span>
+      </div>
+
+      <div style={{
         position: 'absolute', inset: 0, zIndex: 0, pointerEvents: 'none',
-        background: 'linear-gradient(145deg, rgba(15,15,26,0.70) 0%, rgba(26,16,40,0.65) 40%, rgba(15,15,26,0.72) 100%)',
+        background: 'linear-gradient(145deg, rgba(10,10,20,0.75) 0%, rgba(15,15,26,0.70) 40%, rgba(10,10,20,0.78) 100%)',
       }} />
       <div style={{
         position: 'fixed', width: '400px', height: '400px', borderRadius: '50%',
@@ -46,15 +56,6 @@ export default function AgeGateContent() {
         padding: '80px 24px 40px',
         position: 'relative', zIndex: 2,
       }}>
-        <div style={{
-          width: '88px', height: '88px', borderRadius: '50%',
-          border: `2px solid ${GOLD}40`,
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          margin: '0 auto 32px', background: 'rgba(218,177,42,0.05)',
-        }}>
-          <span style={{ fontSize: '36px', fontWeight: 800, color: GOLD, lineHeight: 1, letterSpacing: '-1px' }}>18+</span>
-        </div>
-
         <h1 style={{
           margin: '0 0 16px', fontSize: '42px', fontWeight: 800, color: GOLD,
           letterSpacing: '8px', textAlign: 'center',
