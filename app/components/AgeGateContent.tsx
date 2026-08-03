@@ -57,9 +57,9 @@ export default function AgeGateContent() {
         position: 'relative', zIndex: 2,
       }}>
         <h1 style={{
-          margin: '0 0 16px', fontSize: '42px', fontWeight: 800, color: GOLD,
-          letterSpacing: '8px', textAlign: 'center',
-        }}>CANTINA VIRTUAL</h1>
+          margin: '0 0 16px', fontSize: '32px', fontWeight: 800, color: GOLD,
+          letterSpacing: '4px', textAlign: 'center', whiteSpace: 'nowrap',
+        }}>CANTINA CASITA TOTAL OFFERS</h1>
 
         <p style={{
           margin: '0 0 20px', fontSize: '18px', color: 'rgba(255,255,255,0.8)', textAlign: 'center',
