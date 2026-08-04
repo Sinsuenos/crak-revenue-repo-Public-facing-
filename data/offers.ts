@@ -157,6 +157,17 @@ export const offers: Offer[] = [
     captionEs: 'Shows de Webcam Gratis en Vivo',
     imageUrl: '/banners/myfreecams.png'
   },
+  {
+    slug: 'xtease-free',
+    title: 'XTease Free',
+    category: 'Live Cams',
+    description: 'Swipe-mode live cam platform',
+    affiliateUrl: 'https://t.camsk5.com/413627/10291/40033?aff_sub=CAMS&aff_sub2=SWIPE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Swipe Mode',
+    captionEs: 'Modo Swipe',
+    imageUrl: '/banners/xtease-free.png'
+  },
 
   // ── AI Companions ──────────────────────────────────────────────
   {
