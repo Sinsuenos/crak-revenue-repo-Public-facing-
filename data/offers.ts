@@ -89,6 +89,39 @@ export const offers: Offer[] = [
     captionEs: 'Conoce Gente Nueva',
     imageUrl: '/banners/ways-to-meet.png'
   },
+  {
+    slug: 'kisssfinder',
+    title: 'KisssFinder',
+    category: 'Dating',
+    description: 'Dating platform',
+    affiliateUrl: 'https://t.datsk11.com/413627/5421?aff_sub=UNIQUE&aff_sub2=SOI&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Dating Made Fun',
+    captionEs: 'Citas Divertidas',
+    imageUrl: '/banners/kisssfinder.png'
+  },
+  {
+    slug: 'cozy',
+    title: 'Cozy',
+    category: 'Dating',
+    description: 'Respectful dating experience',
+    affiliateUrl: 'https://t.datsk11.com/413627/9700/0?aff_sub=DATING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Respectful Dating',
+    captionEs: 'Citas Respetuosas',
+    imageUrl: '/banners/cozy.png'
+  },
+  {
+    slug: 'dateplayer2',
+    title: 'DatePlayer2',
+    category: 'Dating',
+    description: 'Gamer dating app',
+    affiliateUrl: 'https://t.datsk11.com/413627/9702/37158?aff_sub=UNIQUE&aff_sub2=LPPINK&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gamer Dating App',
+    captionEs: 'App de Citas para Gamers',
+    imageUrl: '/banners/dateplayer2.png'
+  },
 
   // ── Live Cams ──────────────────────────────────────────────────
   {
@@ -167,6 +200,17 @@ export const offers: Offer[] = [
     caption: 'Swipe Mode',
     captionEs: 'Modo Swipe',
     imageUrl: '/banners/xtease-free.png'
+  },
+  {
+    slug: 'sexymeet-tv',
+    title: 'SexyMeet TV',
+    category: 'Live Cams',
+    description: 'Live random cam-to-cam video chat',
+    affiliateUrl: 'https://t.camsk7.com/413627/10392/0?aff_sub=UNIQUE&aff_sub2=CAMS&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Live Cam Chat',
+    captionEs: 'Chat de Cam en Vivo',
+    imageUrl: '/banners/sexymeet-tv.png'
   },
 
   // ── AI Companions ──────────────────────────────────────────────
@@ -412,7 +456,17 @@ export const offers: Offer[] = [
     caption: 'AI Girlfriend Chat',
     captionEs: 'Chat con Novia IA',
     imageUrl: '/banners/girlfriend-gpt.png',
-
+  },
+  {
+    slug: 'ourdream-ai',
+    title: 'OurDream AI',
+    category: 'AI Companions',
+    description: 'AI roleplay and companion platform',
+    affiliateUrl: 'https://t.vlmai-1.com/413627/10138/0?aff_sub=AI&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'AI Roleplay',
+    captionEs: 'Rol AI',
+    imageUrl: '/banners/ourdream-ai.png'
   },
 
   // ── Fansites ──────────────────────────────────────────────────
@@ -471,6 +525,17 @@ export const offers: Offer[] = [
     captionEs: 'Suscríbete a Talia',
     imageUrl: '/banners/talia-rose.png'
   },
+  {
+    slug: 'revealme',
+    title: 'RevealMe',
+    category: 'Fansites',
+    description: 'Interactive fan platform and content marketplace',
+    affiliateUrl: 'https://www.crakrevenue.com/go/413627/9928/0',
+    countries: [],
+    caption: 'Fan Site Platform',
+    captionEs: 'Plataforma de Fans',
+    imageUrl: '/banners/revealme.png'
+  },
 
   // ── Paysites ──────────────────────────────────────────────────
   {
@@ -527,6 +592,17 @@ export const offers: Offer[] = [
     caption: 'Premium Video Library',
     captionEs: 'Biblioteca de Video Premium',
     imageUrl: '/banners/faphouse.png'
+  },
+  {
+    slug: 'bellesa-plus',
+    title: 'Bellesa Plus',
+    category: 'Paysites',
+    description: 'Ethical premium porn platform',
+    affiliateUrl: 'https://t.bbwafx.com/413627/7378?aff_sub=PAY&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Ethical Premium Porn',
+    captionEs: 'Porno Premium Etico',
+    imageUrl: '/banners/bellesa-plus.png'
   },
 
   // ── Gay ────────────────────────────────────────────────────────
@@ -595,6 +671,17 @@ export const offers: Offer[] = [
     caption: 'Premium Gay Cams',
     captionEs: 'Cámaras Gay Premium',
     imageUrl: '/banners/royal-cams.png'
+  },
+  {
+    slug: 'sweepsex-gay',
+    title: 'SweepSex Gay',
+    category: 'Gay',
+    description: 'Gay live cam platform',
+    affiliateUrl: 'https://t.camsk7.com/413627/7758/40245?aff_sub=CAMS&aff_sub2=GAYWING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Gay Cams',
+    captionEs: 'Cámaras Gay',
+    imageUrl: '/banners/sweepsex-gay.png'
   },
 
   // ── Games ──────────────────────────────────────────────────────
@@ -704,6 +791,17 @@ export const offers: Offer[] = [
     captionEs: 'Red de Citas Trans',
     imageUrl: '/banners/tsdates.png'
   },
+  {
+    slug: 'sweepsex-trans',
+    title: 'SweepSex Trans',
+    category: 'Transgender',
+    description: 'Trans live cam platform',
+    affiliateUrl: 'https://t.camsk7.com/413627/7758/39647?aff_sub=CAMS&aff_sub2=TRANSWING&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Trans Cams',
+    captionEs: 'Cámaras Trans',
+    imageUrl: '/banners/sweepsex-trans.png'
+  },
 
   // ── Unique Offers ──────────────────────────────────────────────
   {
@@ -749,5 +847,16 @@ export const offers: Offer[] = [
     caption: 'Latina Casual Hookups',
     captionEs: 'Encuentros Casuales Latinas',
     imageUrl: '/banners/instabang-latinas.png'
+  },
+  {
+    slug: 'oopsie',
+    title: 'Oopsie',
+    category: 'Unique Offers',
+    description: 'Adult Time original series',
+    affiliateUrl: 'https://t.bbwafx.com/413627/10095/0?aff_sub=UNIQUE&source=CANTINA&aff_sub5=SF_006OG000004lmDN',
+    countries: [],
+    caption: 'Adult Time Original',
+    captionEs: 'Serie Original Adult Time',
+    imageUrl: '/banners/oopsie.png'
   },
 ];
